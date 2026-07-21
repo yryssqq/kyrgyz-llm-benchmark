@@ -1,0 +1,898 @@
+[
+  {
+    "item_id": "vh_001",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«китеп» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "китептар",
+      "китеплар",
+      "китеплер",
+      "китептер"
+    ],
+    "answer_index": 3,
+    "explanation": "Front unrounded stem ending in voiceless п takes -тер."
+  },
+  {
+    "item_id": "vh_002",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«көз» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "көздер",
+      "көздөр",
+      "көздор",
+      "көзлөр"
+    ],
+    "answer_index": 1,
+    "explanation": "Front rounded stem with voiced з takes -дөр."
+  },
+  {
+    "item_id": "vh_003",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«жол» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "жолдар",
+      "жолдер",
+      "жоллор",
+      "жолдор"
+    ],
+    "answer_index": 3,
+    "explanation": "Back rounded stem with voiced л takes -дор."
+  },
+  {
+    "item_id": "vh_004",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«үй» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "үйлар",
+      "үйлор",
+      "үйлөр",
+      "үйлер"
+    ],
+    "answer_index": 2,
+    "explanation": "Front rounded stem ending in a vowel takes -лөр."
+  },
+  {
+    "item_id": "vh_005",
+    "category": "vowel_harmony",
+    "difficulty": "medium",
+    "question": "«ат» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "аттор",
+      "аттар",
+      "аттер",
+      "атлар"
+    ],
+    "answer_index": 1,
+    "explanation": "Back unrounded stem ending in voiceless т takes -тар."
+  },
+  {
+    "item_id": "vh_006",
+    "category": "vowel_harmony",
+    "difficulty": "medium",
+    "question": "«гүл» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "гүлдер",
+      "гүлдөр",
+      "гүллөр",
+      "гүлдар"
+    ],
+    "answer_index": 1,
+    "explanation": "Front rounded stem with voiced л takes -дөр."
+  },
+  {
+    "item_id": "vh_007",
+    "category": "vowel_harmony",
+    "difficulty": "medium",
+    "question": "«тоо» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "тоодор",
+      "тоолар",
+      "тоолөр",
+      "тоолор"
+    ],
+    "answer_index": 3,
+    "explanation": "Back rounded stem ending in a vowel takes -лор."
+  },
+  {
+    "item_id": "vh_008",
+    "category": "vowel_harmony",
+    "difficulty": "hard",
+    "question": "«мугалим» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "мугалимнер",
+      "мугалимдар",
+      "мугалимлер",
+      "мугалимдер"
+    ],
+    "answer_index": 3,
+    "explanation": "Front unrounded stem with voiced м takes -дер."
+  },
+  {
+    "item_id": "morph_001",
+    "category": "morphology",
+    "difficulty": "easy",
+    "question": "«үй» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "үйим",
+      "үйым",
+      "үйүм",
+      "үйом"
+    ],
+    "answer_index": 2,
+    "explanation": "First person singular possessive with front rounded harmony: үйүм."
+  },
+  {
+    "item_id": "morph_002",
+    "category": "morphology",
+    "difficulty": "easy",
+    "question": "«үйгө баратам» дегендеги «үйгө» кайсы жөндөмөдө турат?",
+    "options": [
+      "илик жөндөмө",
+      "барыш жөндөмө",
+      "чыгыш жөндөмө",
+      "табыш жөндөмө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative (барыш) marks direction toward."
+  },
+  {
+    "item_id": "morph_003",
+    "category": "morphology",
+    "difficulty": "easy",
+    "question": "«бала» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "баланын",
+      "баланы",
+      "баладан",
+      "балага"
+    ],
+    "answer_index": 0,
+    "explanation": "Genitive (илик) of бала is баланын."
+  },
+  {
+    "item_id": "morph_004",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мектеп» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мектепте",
+      "мектепке",
+      "мектептен",
+      "мектепти"
+    ],
+    "answer_index": 2,
+    "explanation": "Ablative (чыгыш) of мектеп is мектептен."
+  },
+  {
+    "item_id": "morph_005",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«шаар» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "шаарга",
+      "шаарды",
+      "шаарда",
+      "шаардан"
+    ],
+    "answer_index": 2,
+    "explanation": "Locative (жатыш) of шаар is шаарда."
+  },
+  {
+    "item_id": "morph_006",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«китеп» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "китепте",
+      "китептен",
+      "китепке",
+      "китепти"
+    ],
+    "answer_index": 3,
+    "explanation": "Accusative (табыш) of китеп is китепти."
+  },
+  {
+    "item_id": "morph_007",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«дос» сөзүнө «менин» таандык жана көптүк кошулса, кайсы туура?",
+    "options": [
+      "досторум",
+      "достерим",
+      "досдорум",
+      "достарым"
+    ],
+    "answer_index": 0,
+    "explanation": "Plural достор plus first person possessive: досторум."
+  },
+  {
+    "item_id": "morph_008",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«бала» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "балалар",
+      "балдар",
+      "балдер",
+      "балалер"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of бала is the irregular балдар."
+  },
+  {
+    "item_id": "syn_001",
+    "category": "syntax",
+    "difficulty": "easy",
+    "question": "Кайсы сүйлөм туура түзүлгөн?",
+    "options": [
+      "Мен китеп окуйм.",
+      "Китеп мен окуйм.",
+      "Окуйм мен китеп.",
+      "Мен окуйм китеп."
+    ],
+    "answer_index": 0,
+    "explanation": "Kyrgyz default order is subject-object-verb."
+  },
+  {
+    "item_id": "syn_002",
+    "category": "syntax",
+    "difficulty": "easy",
+    "question": "Кайсы сүйлөм туура түзүлгөн?",
+    "options": [
+      "Ал барат мектепке.",
+      "Ал мектепке барат.",
+      "Мектепке ал барат бир.",
+      "Барат ал мектеп."
+    ],
+    "answer_index": 1,
+    "explanation": "Verb comes last; dative-marked goal precedes it."
+  },
+  {
+    "item_id": "syn_003",
+    "category": "syntax",
+    "difficulty": "medium",
+    "question": "Кайсы сүйлөмдө сөздөр туура жөндөмөдө турат?",
+    "options": [
+      "Мен китептен окудум.",
+      "Мен китепти окудум.",
+      "Мен китепке окудум.",
+      "Мен китеп окудум ти."
+    ],
+    "answer_index": 1,
+    "explanation": "The direct object takes the accusative: китепти."
+  },
+  {
+    "item_id": "syn_004",
+    "category": "syntax",
+    "difficulty": "medium",
+    "question": "Кайсы сүйлөмдө этиш туура жакталган?",
+    "options": [
+      "Биз келдик.",
+      "Биз келди.",
+      "Биз келдим.",
+      "Биз келдиң."
+    ],
+    "answer_index": 0,
+    "explanation": "First person plural past requires -дик: келдик."
+  },
+  {
+    "item_id": "syn_005",
+    "category": "syntax",
+    "difficulty": "medium",
+    "question": "«___ бардың?» деген суроого кайсы сөз ылайык?",
+    "options": [
+      "кандай",
+      "канча",
+      "кайсы",
+      "кайда"
+    ],
+    "answer_index": 3,
+    "explanation": "«Кайда бардың» asks the destination of going."
+  },
+  {
+    "item_id": "syn_006",
+    "category": "syntax",
+    "difficulty": "hard",
+    "question": "Кайсы сүйлөмдө таандык жана жөндөмө туура айкалышкан?",
+    "options": [
+      "Мен китебимди алды.",
+      "Менин китебим алды.",
+      "Менин китебимди алды.",
+      "Менин китебиди алды."
+    ],
+    "answer_index": 2,
+    "explanation": "Possessed noun keeps possessive plus accusative: китебимди."
+  },
+  {
+    "item_id": "syn_007",
+    "category": "syntax",
+    "difficulty": "hard",
+    "question": "Кайсы сүйлөм грамматикалык жактан туура?",
+    "options": [
+      "Ал меге китеп берди.",
+      "Ал маа китеп берди.",
+      "Ал мен китеп берди.",
+      "Ал мага китеп берди."
+    ],
+    "answer_index": 3,
+    "explanation": "The dative of мен is мага."
+  },
+  {
+    "item_id": "syn_008",
+    "category": "syntax",
+    "difficulty": "hard",
+    "question": "«Эртең мен ___» сүйлөмүн кайсы этиш туура аяктайт?",
+    "options": [
+      "барам",
+      "бардым",
+      "барган элем",
+      "барыпмын"
+    ],
+    "answer_index": 0,
+    "explanation": "«Эртең» (tomorrow) requires future/present-future: барам."
+  },
+  {
+    "item_id": "lex_001",
+    "category": "lexical_semantics",
+    "difficulty": "easy",
+    "question": "«суу» сөзү эмнени билдирет?",
+    "options": [
+      "fire",
+      "stone",
+      "wind",
+      "water"
+    ],
+    "answer_index": 3,
+    "explanation": "«Суу» means water."
+  },
+  {
+    "item_id": "lex_002",
+    "category": "lexical_semantics",
+    "difficulty": "easy",
+    "question": "«чоң» сөзүнүн антоними кайсы?",
+    "options": [
+      "алыс",
+      "бийик",
+      "кичине",
+      "жаман"
+    ],
+    "answer_index": 2,
+    "explanation": "The opposite of чоң (big) is кичине (small)."
+  },
+  {
+    "item_id": "lex_003",
+    "category": "lexical_semantics",
+    "difficulty": "easy",
+    "question": "«ак» сөзүнүн антоними кайсы?",
+    "options": [
+      "кара",
+      "сары",
+      "көк",
+      "кызыл"
+    ],
+    "answer_index": 0,
+    "explanation": "The opposite of ак (white) is кара (black)."
+  },
+  {
+    "item_id": "lex_004",
+    "category": "lexical_semantics",
+    "difficulty": "medium",
+    "question": "«кубанычтуу» сөзүнүн синоними кайсы?",
+    "options": [
+      "ачуулуу",
+      "чарчаган",
+      "капалуу",
+      "шаттуу"
+    ],
+    "answer_index": 3,
+    "explanation": "«Шаттуу» (joyful) is a synonym of кубанычтуу."
+  },
+  {
+    "item_id": "lex_005",
+    "category": "lexical_semantics",
+    "difficulty": "medium",
+    "question": "«баш» сөзү төмөнкү сүйлөмдө кайсы мааниде: «Тоонун башы»?",
+    "options": [
+      "тоонун чокусу",
+      "китептин барагы",
+      "жол",
+      "дененин башы"
+    ],
+    "answer_index": 0,
+    "explanation": "Here баш means the top/summit of the mountain."
+  },
+  {
+    "item_id": "lex_006",
+    "category": "lexical_semantics",
+    "difficulty": "medium",
+    "question": "«жакшы» сөзүнүн антоними кайсы?",
+    "options": [
+      "жаңы",
+      "жаман",
+      "чоң",
+      "ысык"
+    ],
+    "answer_index": 1,
+    "explanation": "The opposite of жакшы (good) is жаман (bad)."
+  },
+  {
+    "item_id": "lex_007",
+    "category": "lexical_semantics",
+    "difficulty": "hard",
+    "question": "«өт» сөзү кайсы сүйлөмдө «убакыт өтүү» маанисинде колдонулган?",
+    "options": [
+      "Көпүрөдөн өт.",
+      "Отту өчүр.",
+      "Жылдар өтүп кетти.",
+      "Оттон өт."
+    ],
+    "answer_index": 2,
+    "explanation": "«Жылдар өтүп кетти» — years passed (time passing)."
+  },
+  {
+    "item_id": "lex_008",
+    "category": "lexical_semantics",
+    "difficulty": "hard",
+    "question": "«кол» сөзү «жардам» маанисинде кайсы айкашта колдонулат?",
+    "options": [
+      "колду көтөрүү",
+      "кол сунуу",
+      "кол жуу",
+      "кол алышуу"
+    ],
+    "answer_index": 1,
+    "explanation": "«Кол сунуу» means to extend help."
+  },
+  {
+    "item_id": "idiom_001",
+    "category": "idioms",
+    "difficulty": "medium",
+    "question": "«Оозунан бал тамган» деген сөз айкашы эмнени билдирет?",
+    "options": [
+      "таттуу тамак жеген",
+      "уктап жаткан",
+      "чечен, жагымдуу сүйлөгөн",
+      "ооруп жаткан"
+    ],
+    "answer_index": 2,
+    "explanation": "It describes an eloquent, pleasant speaker."
+  },
+  {
+    "item_id": "idiom_002",
+    "category": "idioms",
+    "difficulty": "medium",
+    "question": "«Көзгө көрүнбөй» деген эмнени билдирет?",
+    "options": [
+      "билинбей, жашырын",
+      "сокур болуу",
+      "уктап калуу",
+      "тез жүрүү"
+    ],
+    "answer_index": 0,
+    "explanation": "It means unnoticed / in secret."
+  },
+  {
+    "item_id": "idiom_003",
+    "category": "idioms",
+    "difficulty": "medium",
+    "question": "«Жүрөгү түшүү» деген сөз айкашы эмнени билдирет?",
+    "options": [
+      "катуу коркуу",
+      "жүрөгү ооруу",
+      "кубануу",
+      "чарчоо"
+    ],
+    "answer_index": 0,
+    "explanation": "It means to be badly frightened."
+  },
+  {
+    "item_id": "idiom_004",
+    "category": "idioms",
+    "difficulty": "hard",
+    "question": "«Кой үстүнө торгой жумурткалаган» макалы кайсы мезгилди сүрөттөйт?",
+    "options": [
+      "тынч, бейпил заман",
+      "ачарчылык",
+      "согуш мезгили",
+      "суук кыш"
+    ],
+    "answer_index": 0,
+    "explanation": "It depicts a peaceful, prosperous time."
+  },
+  {
+    "item_id": "idiom_005",
+    "category": "idioms",
+    "difficulty": "hard",
+    "question": "«Эт менен тырмактай» деген эмнени билдирет?",
+    "options": [
+      "ажырагыс жакын",
+      "өтө кымбат",
+      "абдан алыс",
+      "эски"
+    ],
+    "answer_index": 0,
+    "explanation": "Like flesh and nail — inseparably close."
+  },
+  {
+    "item_id": "idiom_006",
+    "category": "idioms",
+    "difficulty": "hard",
+    "question": "«Тил тартпай» деген сөз айкашы эмнени билдирет?",
+    "options": [
+      "тилди тартуу",
+      "унчукпоо",
+      "тартынбай, ачык айтуу",
+      "жаман сүйлөө"
+    ],
+    "answer_index": 2,
+    "explanation": "It means to speak frankly without hesitation."
+  },
+  {
+    "item_id": "idiom_007",
+    "category": "idioms",
+    "difficulty": "hard",
+    "question": "«Башы менен» деген айкаш кайсы мааниде: «Ал ишке башы менен кирди»?",
+    "options": [
+      "чын дилден, толук",
+      "акылсыздык менен",
+      "жарым-жартылай",
+      "аргасыздан"
+    ],
+    "answer_index": 0,
+    "explanation": "Here it means fully, wholeheartedly."
+  },
+  {
+    "item_id": "idiom_008",
+    "category": "idioms",
+    "difficulty": "medium",
+    "question": "«Кулак кагыш» деген эмнени билдирет?",
+    "options": [
+      "алдын ала эскертүү",
+      "укпай калуу",
+      "катуу үн",
+      "кулакты ооруткан"
+    ],
+    "answer_index": 0,
+    "explanation": "It means a warning / heads-up given in advance."
+  },
+  {
+    "item_id": "cult_001",
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "«Манас» эпосунун үчилтиги кайсы бөлүктөрдөн турат?",
+    "options": [
+      "Манас, Кошой, Сейтек",
+      "Манас, Алмамбет, Бакай",
+      "Манас, Каныкей, Чубак",
+      "Манас, Семетей, Сейтек"
+    ],
+    "answer_index": 3,
+    "explanation": "The trilogy is Manas, his son Semetey, his grandson Seytek."
+  },
+  {
+    "item_id": "cult_002",
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "Кыргызстандын борбор шаары кайсы?",
+    "options": [
+      "Каракол",
+      "Бишкек",
+      "Ош",
+      "Жалал-Абад"
+    ],
+    "answer_index": 1,
+    "explanation": "The capital of Kyrgyzstan is Bishkek."
+  },
+  {
+    "item_id": "cult_003",
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "Кыргыздын боз үйүнүн чокусундагы тегерек бөлүк кантип аталат?",
+    "options": [
+      "кереге",
+      "уук",
+      "түндүк",
+      "босого"
+    ],
+    "answer_index": 2,
+    "explanation": "The crown of the yurt is the түндүк."
+  },
+  {
+    "item_id": "cult_004",
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "Кыргыздын улуттук ичимдиги, бээнин сүтүнөн жасалганы кайсы?",
+    "options": [
+      "кымыз",
+      "максым",
+      "айран",
+      "чалап"
+    ],
+    "answer_index": 0,
+    "explanation": "Кымыз is made from fermented mare's milk."
+  },
+  {
+    "item_id": "cult_005",
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "Кыргызстандагы эң чоң көл кайсы?",
+    "options": [
+      "Сары-Челек",
+      "Соң-Көл",
+      "Ысык-Көл",
+      "Чатыр-Көл"
+    ],
+    "answer_index": 2,
+    "explanation": "Issyk-Kul is the largest lake in Kyrgyzstan."
+  },
+  {
+    "item_id": "cult_006",
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "«Комуз» деген эмне?",
+    "options": [
+      "тамак",
+      "үч кылдуу музыкалык аспап",
+      "кийим",
+      "оюн"
+    ],
+    "answer_index": 1,
+    "explanation": "The komuz is a three-stringed instrument."
+  },
+  {
+    "item_id": "cult_007",
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "Кыргыздын салттуу тамагы «бешбармак» негизинен эмнеден жасалат?",
+    "options": [
+      "жашылча",
+      "күрүч менен эт",
+      "балык",
+      "эт менен камыр"
+    ],
+    "answer_index": 3,
+    "explanation": "Beshbarmak is made of boiled meat and flat noodles (dough)."
+  },
+  {
+    "item_id": "cult_008",
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "Ат үстүндө улак тартышуучу салттуу оюн кантип аталат?",
+    "options": [
+      "жамбы атмай",
+      "тогуз коргоол",
+      "көк бөрү",
+      "ордо"
+    ],
+    "answer_index": 2,
+    "explanation": "Kok-boru (ulak-tartysh) is the horseback goat-carcass game."
+  },
+  {
+    "item_id": "trans_001",
+    "category": "translation",
+    "difficulty": "easy",
+    "question": "«Рахмат» сөзүнүн англисче котормосу кайсы?",
+    "options": [
+      "Goodbye",
+      "Sorry",
+      "Thank you",
+      "Hello"
+    ],
+    "answer_index": 2,
+    "explanation": "«Рахмат» means thank you."
+  },
+  {
+    "item_id": "trans_002",
+    "category": "translation",
+    "difficulty": "easy",
+    "question": "«Салам» сөзү орусча кандай которулат?",
+    "options": [
+      "Спасибо",
+      "Пока",
+      "Извините",
+      "Привет"
+    ],
+    "answer_index": 3,
+    "explanation": "«Салам» is a greeting: привет / hello."
+  },
+  {
+    "item_id": "trans_003",
+    "category": "translation",
+    "difficulty": "easy",
+    "question": "«Мен китеп окуйм» сүйлөмүнүн англисче котормосу кайсы?",
+    "options": [
+      "I want a book",
+      "I read a book",
+      "I write a book",
+      "I have a book"
+    ],
+    "answer_index": 1,
+    "explanation": "«Окуйм» is I read."
+  },
+  {
+    "item_id": "trans_004",
+    "category": "translation",
+    "difficulty": "medium",
+    "question": "«Күн ысык» сүйлөмүнүн туура англисче котормосу кайсы?",
+    "options": [
+      "The night is hot",
+      "The day is hot",
+      "The day is cold",
+      "The sun is cold"
+    ],
+    "answer_index": 1,
+    "explanation": "«Күн ысык» — the day/weather is hot."
+  },
+  {
+    "item_id": "trans_005",
+    "category": "translation",
+    "difficulty": "medium",
+    "question": "«Ал мага жардам берди» сүйлөмүнүн котормосу кайсы?",
+    "options": [
+      "He saw me",
+      "He asked me",
+      "He helped me",
+      "I helped him"
+    ],
+    "answer_index": 2,
+    "explanation": "«Мага жардам берди» — helped me."
+  },
+  {
+    "item_id": "trans_006",
+    "category": "translation",
+    "difficulty": "medium",
+    "question": "«Биз үйдө болобуз» сүйлөмүнүн туура котормосу кайсы?",
+    "options": [
+      "We will be at home",
+      "They are at home",
+      "We were at home",
+      "We are at school"
+    ],
+    "answer_index": 0,
+    "explanation": "«Болобуз» — we will be; үйдө — at home."
+  },
+  {
+    "item_id": "trans_007",
+    "category": "translation",
+    "difficulty": "hard",
+    "question": "«Эртең мененки тамак» деген эмнени билдирет?",
+    "options": [
+      "lunch",
+      "dinner",
+      "snack",
+      "breakfast"
+    ],
+    "answer_index": 3,
+    "explanation": "«Эртең мененки тамак» is the morning meal — breakfast."
+  },
+  {
+    "item_id": "trans_008",
+    "category": "translation",
+    "difficulty": "hard",
+    "question": "«Көңүлү чөгүп кетти» айкашынын эң жакын англисче котормосу кайсы?",
+    "options": [
+      "He got tired",
+      "He fell down",
+      "He became sad",
+      "He got angry"
+    ],
+    "answer_index": 2,
+    "explanation": "It idiomatically means he became sad / disheartened."
+  },
+  {
+    "item_id": "orth_001",
+    "category": "orthography",
+    "difficulty": "easy",
+    "question": "Кайсы жазылышы туура?",
+    "options": [
+      "көчо",
+      "көчө",
+      "кечө",
+      "кочо"
+    ],
+    "answer_index": 1,
+    "explanation": "Both syllables use ө: көчө (street)."
+  },
+  {
+    "item_id": "orth_002",
+    "category": "orthography",
+    "difficulty": "easy",
+    "question": "Кайсы жазылышы туура?",
+    "options": [
+      "түндүк",
+      "түндик",
+      "түндук",
+      "тундук"
+    ],
+    "answer_index": 0,
+    "explanation": "Both syllables use ү: түндүк."
+  },
+  {
+    "item_id": "orth_003",
+    "category": "orthography",
+    "difficulty": "easy",
+    "question": "Кайсы жазылышы туура?",
+    "options": [
+      "маңдаы",
+      "мандай",
+      "манъдай",
+      "маңдай"
+    ],
+    "answer_index": 3,
+    "explanation": "The word uses ң: маңдай (forehead)."
+  },
+  {
+    "item_id": "orth_004",
+    "category": "orthography",
+    "difficulty": "medium",
+    "question": "«songs» дегенди билдирген сөз кайсы туура жазылган?",
+    "options": [
+      "ырлор",
+      "ирлар",
+      "ырлер",
+      "ырлар"
+    ],
+    "answer_index": 3,
+    "explanation": "Back unrounded harmony after ыр: ырлар."
+  },
+  {
+    "item_id": "orth_005",
+    "category": "orthography",
+    "difficulty": "medium",
+    "question": "Кайсы жазылышы туура?",
+    "options": [
+      "сүйлоо",
+      "сүйлөө",
+      "сөйлөө",
+      "суйлоо"
+    ],
+    "answer_index": 1,
+    "explanation": "The word сүйлөө uses ү then ө."
+  },
+  {
+    "item_id": "orth_006",
+    "category": "orthography",
+    "difficulty": "medium",
+    "question": "Кайсы жазылышы туура?",
+    "options": [
+      "конул",
+      "көнүл",
+      "көңул",
+      "көңүл"
+    ],
+    "answer_index": 3,
+    "explanation": "The word көңүл has ө, ң, and ү."
+  },
+  {
+    "item_id": "orth_007",
+    "category": "orthography",
+    "difficulty": "hard",
+    "question": "Кайсы жазылышы туура?",
+    "options": [
+      "тушунук",
+      "түшүнүк",
+      "түшүнук",
+      "түшунук"
+    ],
+    "answer_index": 1,
+    "explanation": "All rounded-front vowels: түшүнүк."
+  },
+  {
+    "item_id": "orth_008",
+    "category": "orthography",
+    "difficulty": "hard",
+    "question": "Кайсы жазылышы туура?",
+    "options": [
+      "онугуу",
+      "өнүгуу",
+      "өнүгүү",
+      "өнугуу"
+    ],
+    "answer_index": 2,
+    "explanation": "The word өнүгүү uses ө and ү throughout."
+  }
+]

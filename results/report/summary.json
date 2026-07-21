@@ -1,0 +1,237 @@
+{
+  "n_evaluations": 128,
+  "chance_level": 0.25,
+  "overall_accuracy": 0.890625,
+  "accuracy_by_model": [
+    {
+      "model": "gpt-4o",
+      "accuracy": 0.921875
+    },
+    {
+      "model": "gpt-4o-mini",
+      "accuracy": 0.859375
+    }
+  ],
+  "accuracy_by_category": [
+    {
+      "category": "culture",
+      "accuracy": 0.875
+    },
+    {
+      "category": "idioms",
+      "accuracy": 1.0
+    },
+    {
+      "category": "lexical_semantics",
+      "accuracy": 1.0
+    },
+    {
+      "category": "morphology",
+      "accuracy": 0.625
+    },
+    {
+      "category": "orthography",
+      "accuracy": 0.9375
+    },
+    {
+      "category": "syntax",
+      "accuracy": 0.9375
+    },
+    {
+      "category": "translation",
+      "accuracy": 1.0
+    },
+    {
+      "category": "vowel_harmony",
+      "accuracy": 0.75
+    }
+  ],
+  "accuracy_by_difficulty": [
+    {
+      "difficulty": "easy",
+      "accuracy": 0.8809523809523809
+    },
+    {
+      "difficulty": "hard",
+      "accuracy": 0.9166666666666666
+    },
+    {
+      "difficulty": "medium",
+      "accuracy": 0.88
+    }
+  ],
+  "unparseable_rate_by_model": [
+    {
+      "model": "gpt-4o",
+      "unparseable_rate": 0.0
+    },
+    {
+      "model": "gpt-4o-mini",
+      "unparseable_rate": 0.0
+    }
+  ],
+  "significance_by_model": [
+    {
+      "model": "gpt-4o",
+      "n_correct": 59,
+      "n_total": 64,
+      "accuracy": 0.921875,
+      "p_value": 5.599364886993085e-30,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "n_correct": 55,
+      "n_total": 64,
+      "accuracy": 0.859375,
+      "p_value": 1.6825337222174686e-24,
+      "above_chance_p05": true
+    }
+  ],
+  "significance_by_model_category": [
+    {
+      "model": "gpt-4o",
+      "category": "culture",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o",
+      "category": "idioms",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o",
+      "category": "lexical_semantics",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o",
+      "category": "morphology",
+      "n_correct": 5,
+      "n_total": 8,
+      "accuracy": 0.625,
+      "p_value": 0.0272979736328125,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o",
+      "category": "orthography",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o",
+      "category": "syntax",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o",
+      "category": "translation",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o",
+      "category": "vowel_harmony",
+      "n_correct": 6,
+      "n_total": 8,
+      "accuracy": 0.75,
+      "p_value": 0.0042266845703125,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "culture",
+      "n_correct": 6,
+      "n_total": 8,
+      "accuracy": 0.75,
+      "p_value": 0.0042266845703125,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "idioms",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "lexical_semantics",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "morphology",
+      "n_correct": 5,
+      "n_total": 8,
+      "accuracy": 0.625,
+      "p_value": 0.0272979736328125,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "orthography",
+      "n_correct": 7,
+      "n_total": 8,
+      "accuracy": 0.875,
+      "p_value": 0.0003814697265625,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "syntax",
+      "n_correct": 7,
+      "n_total": 8,
+      "accuracy": 0.875,
+      "p_value": 0.0003814697265625,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "translation",
+      "n_correct": 8,
+      "n_total": 8,
+      "accuracy": 1.0,
+      "p_value": 1.52587890625e-05,
+      "above_chance_p05": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "category": "vowel_harmony",
+      "n_correct": 6,
+      "n_total": 8,
+      "accuracy": 0.75,
+      "p_value": 0.0042266845703125,
+      "above_chance_p05": true
+    }
+  ]
+}
