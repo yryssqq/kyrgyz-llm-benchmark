@@ -43,14 +43,27 @@ So a single "90% on Kyrgyz" number hides the real gap: the model knows things ab
 | `translation` | meaning across ky/ru/en |
 | `orthography` | ң, ө, ү and easy-to-miss spellings |
 
+## Morphology generator
+
+Since morphology is where models fail, `morphology.py` encodes Kyrgyz noun inflection as rules: vowel harmony (4-way), consonant assimilation, and final-obstruent voicing. Given a list of stems it produces plural, five cases, and three possessives, plus multiple-choice items whose wrong options are real harmony violations. Its rules are unit-tested against the hand-verified forms in the benchmark.
+
+```bash
+python generate_morphology.py --sample 30      # print forms to eyeball
+python generate_morphology.py                  # write training pairs + MCQ items
+```
+
+This turns a small verified stem list into thousands of items, for expanding the test set and for fine-tuning experiments. A native speaker still checks the stem list and a sample of the output; the rounding-harmony edge cases are the ones to watch.
+
 ## Files
 
 ```
 data/items.json         the benchmark
-src/kyrgyz_eval/         loading, prompting, scoring, stats
+data/stems.example.txt  stem list for the generator
+src/kyrgyz_eval/         loading, prompting, scoring, stats, morphology
 validate_items.py       check the item file
 run_benchmark.py        items -> model -> results/*.csv
 analyze.py              results -> summary.json + charts
+generate_morphology.py  stems -> training pairs + generated items
 ```
 
 ## Run
