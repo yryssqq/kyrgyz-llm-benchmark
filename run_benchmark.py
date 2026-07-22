@@ -24,7 +24,7 @@ FIELDS = [
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--provider", choices=["huggingface", "openai"], required=True)
+    parser.add_argument("--provider", choices=["huggingface", "openai", "gemini"], required=True)
     parser.add_argument("--model", required=True)
     parser.add_argument("--items", default="data/items.json")
     parser.add_argument("--output", default=None)
@@ -32,7 +32,7 @@ def main() -> None:
     parser.add_argument("--delay", type=float, default=0.0)
     args = parser.parse_args()
 
-    default_env = "HF_TOKEN" if args.provider == "huggingface" else "OPENAI_API_KEY"
+    default_env = {"huggingface": "HF_TOKEN", "openai": "OPENAI_API_KEY", "gemini": "GEMINI_API_KEY"}[args.provider]
     api_key = os.environ.get(args.api_key_env or default_env)
 
     items = dataset.load_items(args.items)

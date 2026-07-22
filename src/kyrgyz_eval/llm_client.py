@@ -100,9 +100,35 @@ class OpenAIBackend(BaseBackend):
         return response.choices[0].message.content or ""
 
 
+class GeminiBackend(BaseBackend):
+    def __init__(self, model: str, api_key: str | None = None, max_tokens: int = 8192):
+        self.name = model
+        self.max_tokens = max_tokens
+        self.api_key = api_key
+        self.endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+    def _call(self, prompt: str) -> str:
+        import requests
+
+        response = requests.post(
+            self.endpoint,
+            params={"key": self.api_key},
+            json={
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"maxOutputTokens": self.max_tokens},
+            },
+            timeout=90,
+        )
+        response.raise_for_status()
+        parts = response.json()["candidates"][0].get("content", {}).get("parts", [])
+        return "".join(part.get("text", "") for part in parts)
+
+
 def build_backend(provider: str, model: str, api_key: str | None = None) -> BaseBackend:
     if provider == "huggingface":
         return HuggingFaceBackend(model_id=model, token=api_key)
     if provider == "openai":
         return OpenAIBackend(model=model, api_key=api_key)
-    raise ValueError(f"Unknown provider '{provider}'. Use 'huggingface' or 'openai'.")
+    if provider == "gemini":
+        return GeminiBackend(model=model, api_key=api_key)
+    raise ValueError(f"Unknown provider '{provider}'. Use 'huggingface', 'openai', or 'gemini'.")
