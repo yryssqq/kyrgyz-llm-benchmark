@@ -38,6 +38,7 @@ def test_genitive(stem, expected):
 @pytest.mark.parametrize("stem,expected", [
     ("үй", "үйгө"),
     ("мектеп", "мектепке"),
+    ("суу", "сууга"),
 ])
 def test_dative(stem, expected):
     assert m.dative(stem) == expected
@@ -59,6 +60,17 @@ def test_locative():
 def test_ablative():
     assert m.ablative("мектеп") == "мектептен"
     assert m.ablative("шаар") == "шаардан"
+    assert m.ablative("бут") == "буттан"
+
+
+def test_rounding_asymmetry_back_high_vowel():
+    assert m.plural("суу") == "суулар"
+    assert m.plural("бут") == "буттар"
+
+
+def test_iotation_after_final_glide():
+    assert m.poss_1sg("ой") == "оюм"
+    assert m.poss_1sg("үй") == "үйүм"
 
 
 @pytest.mark.parametrize("stem,expected", [

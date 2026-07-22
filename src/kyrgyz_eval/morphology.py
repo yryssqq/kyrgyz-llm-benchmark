@@ -1,31 +1,22 @@
 from __future__ import annotations
 
 VOWELS = set("аоуыэеиөү")
-BACK = set("аоуы")
-ROUNDED = set("оуөү")
 VOICELESS = set("птксшчхфцщ")
 
-HARMONY_KEYS = [
-    ("back", "unrounded"),
-    ("back", "rounded"),
-    ("front", "unrounded"),
-    ("front", "rounded"),
-]
+LOW_VOWELS = ["а", "о", "е", "ө"]
+HIGH_VOWELS = ["ы", "у", "и", "ү"]
 
-LOW = {
-    ("back", "unrounded"): "а",
-    ("back", "rounded"): "о",
-    ("front", "unrounded"): "е",
-    ("front", "rounded"): "ө",
+LOW_BY_VOWEL = {
+    "а": "а", "ы": "а", "о": "о", "у": "а",
+    "э": "е", "е": "е", "и": "е", "ө": "ө", "ү": "ө",
 }
-HIGH = {
-    ("back", "unrounded"): "ы",
-    ("back", "rounded"): "у",
-    ("front", "unrounded"): "и",
-    ("front", "rounded"): "ү",
+HIGH_BY_VOWEL = {
+    "а": "ы", "ы": "ы", "о": "у", "у": "у",
+    "э": "и", "е": "и", "и": "и", "ө": "ү", "ү": "ү",
 }
 
 VOICING = {"п": "б", "к": "г"}
+IOTATION = (("йу", "ю"), ("йа", "я"))
 
 CASES = ("genitive", "dative", "accusative", "locative", "ablative")
 POSSESSIVES = ("poss_1sg", "poss_2sg", "poss_3sg")
@@ -50,19 +41,18 @@ def _last_vowel(stem: str) -> str:
     raise ValueError(f"no vowel in stem: {stem}")
 
 
-def _harmony(stem: str) -> tuple[str, str]:
-    v = _last_vowel(stem)
-    backness = "back" if v in BACK else "front"
-    rounding = "rounded" if v in ROUNDED else "unrounded"
-    return backness, rounding
+def _low(stem: str, force: str | None = None) -> str:
+    return force if force is not None else LOW_BY_VOWEL[_last_vowel(stem)]
 
 
-def _low(stem: str, force: tuple[str, str] | None = None) -> str:
-    return LOW[force or _harmony(stem)]
+def _high(stem: str, force: str | None = None) -> str:
+    return force if force is not None else HIGH_BY_VOWEL[_last_vowel(stem)]
 
 
-def _high(stem: str, force: tuple[str, str] | None = None) -> str:
-    return HIGH[force or _harmony(stem)]
+def _orth(form: str) -> str:
+    for src, dst in IOTATION:
+        form = form.replace(src, dst)
+    return form
 
 
 def _ends_in_vowel(stem: str) -> bool:
@@ -92,50 +82,50 @@ def plural(stem: str, force=None, irregular: str | None = None) -> str:
     if irregular and force is None:
         return irregular
     c = _initial_three_way(stem, "л", "д", "т")
-    return stem + c + _low(stem, force) + "р"
+    return _orth(stem + c + _low(stem, force) + "р")
 
 
 def genitive(stem: str, force=None) -> str:
     c = _initial_three_way(stem, "н", "д", "т")
-    return stem + c + _high(stem, force) + "н"
+    return _orth(stem + c + _high(stem, force) + "н")
 
 
 def dative(stem: str, force=None) -> str:
     c = _initial_two_way(stem, "г", "к")
-    return stem + c + _low(stem, force)
+    return _orth(stem + c + _low(stem, force))
 
 
 def accusative(stem: str, force=None) -> str:
     c = _initial_three_way(stem, "н", "д", "т")
-    return stem + c + _high(stem, force)
+    return _orth(stem + c + _high(stem, force))
 
 
 def locative(stem: str, force=None) -> str:
     c = _initial_two_way(stem, "д", "т")
-    return stem + c + _low(stem, force)
+    return _orth(stem + c + _low(stem, force))
 
 
 def ablative(stem: str, force=None) -> str:
     c = _initial_two_way(stem, "д", "т")
-    return stem + c + _low(stem, force) + "н"
+    return _orth(stem + c + _low(stem, force) + "н")
 
 
 def poss_1sg(stem: str, force=None) -> str:
     if _ends_in_vowel(stem):
         return stem + "м"
-    return _voice_final(stem) + _high(stem, force) + "м"
+    return _orth(_voice_final(stem) + _high(stem, force) + "м")
 
 
 def poss_2sg(stem: str, force=None) -> str:
     if _ends_in_vowel(stem):
         return stem + "ң"
-    return _voice_final(stem) + _high(stem, force) + "ң"
+    return _orth(_voice_final(stem) + _high(stem, force) + "ң")
 
 
 def poss_3sg(stem: str, force=None) -> str:
     if _ends_in_vowel(stem):
-        return stem + "с" + _high(stem, force)
-    return _voice_final(stem) + _high(stem, force)
+        return _orth(stem + "с" + _high(stem, force))
+    return _orth(_voice_final(stem) + _high(stem, force))
 
 
 GENERATORS = {
@@ -159,14 +149,16 @@ def inflect(stem: str, feature: str, irregular: str | None = None) -> str:
 
 FILL_ORDER = ("plural", "accusative", "genitive", "dative", "locative", "ablative", "poss_1sg", "poss_3sg")
 
+LOW_FEATURES = {"plural", "dative", "locative", "ablative"}
+
 
 def distractors(stem: str, feature: str, n: int = 3) -> list[str]:
     fn = GENERATORS[feature]
     correct = inflect(stem, feature)
     pool: list[str] = []
 
-    for key in HARMONY_KEYS:
-        form = fn(stem, force=key)
+    for vowel in (LOW_VOWELS if feature in LOW_FEATURES else HIGH_VOWELS):
+        form = fn(stem, force=vowel)
         if form != correct and form not in pool:
             pool.append(form)
 
