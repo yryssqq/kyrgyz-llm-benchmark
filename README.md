@@ -91,20 +91,20 @@ python eval_local.py                      # base
 python eval_local.py --adapter adapters   # fine-tuned
 ```
 
-The base model does not inflect at all: asked for the plural of `чок` it answers `чок`. After training on rule-generated forms it reaches **74.1%** on words it never saw.
+The base model does not inflect at all: asked for the plural of `тургун` it answers `турум`. After training on rule-generated forms it reaches **77%** on words it never saw.
 
 ![fine-tuning scaling](results/report/finetune_scaling.png)
 
 | training stems | held-out accuracy | test items |
 |---|---|---|
-| 0 (base model) | 0.0% | 567 |
+| 0 (base model) | 0.0% | 531 |
 | 22 | 16.7% | 54 |
 | 105 | 65.9% | 270 |
-| 225 | **74.1%** | 567 |
+| 208 (cross-attested) | **77.0%** | 531 |
 
 Each run holds out a fifth of the stems, so accuracy is measured only on words absent from training; the gain is generalisation of the rules, not memorised forms. Test sets differ in size between runs because they are drawn from the stem list being used. Training takes about 20 minutes on an M1 Air at 1.1 GB peak memory.
 
-The remaining errors concentrate on the two rules that interact with the stem's final consonant: intervocalic voicing (`чогум` produced as `чокум`) and devoicing after a voiceless stop (`чокту` as `чокду`).
+The remaining errors concentrate on the two rules that interact with the stem's final consonant: intervocalic voicing and devoicing after a voiceless stop.
 
 ## Files
 
