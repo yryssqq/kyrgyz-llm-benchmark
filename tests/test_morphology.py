@@ -30,6 +30,8 @@ def test_plural_irregular_override():
     ("бала", "баланын"),
     ("китеп", "китептин"),
     ("көз", "көздүн"),
+    ("үй", "үйдүн"),
+    ("шаар", "шаардын"),
 ])
 def test_genitive(stem, expected):
     assert m.genitive(stem) == expected
@@ -47,6 +49,8 @@ def test_dative(stem, expected):
 @pytest.mark.parametrize("stem,expected", [
     ("китеп", "китепти"),
     ("бала", "баланы"),
+    ("үй", "үйдү"),
+    ("шаар", "шаарды"),
 ])
 def test_accusative(stem, expected):
     assert m.accusative(stem) == expected

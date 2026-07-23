@@ -78,6 +78,14 @@ def _initial_three_way(stem: str, sonorant: str, voiced: str, voiceless: str) ->
     return voiced
 
 
+def _initial_after_vowel(stem: str, after_vowel: str, voiced: str, voiceless: str) -> str:
+    if _ends_in_vowel(stem):
+        return after_vowel
+    if stem[-1] in VOICELESS:
+        return voiceless
+    return voiced
+
+
 def plural(stem: str, force=None, irregular: str | None = None) -> str:
     if irregular and force is None:
         return irregular
@@ -86,7 +94,7 @@ def plural(stem: str, force=None, irregular: str | None = None) -> str:
 
 
 def genitive(stem: str, force=None) -> str:
-    c = _initial_three_way(stem, "н", "д", "т")
+    c = _initial_after_vowel(stem, "н", "д", "т")
     return _orth(stem + c + _high(stem, force) + "н")
 
 
@@ -96,7 +104,7 @@ def dative(stem: str, force=None) -> str:
 
 
 def accusative(stem: str, force=None) -> str:
-    c = _initial_three_way(stem, "н", "д", "т")
+    c = _initial_after_vowel(stem, "н", "д", "т")
     return _orth(stem + c + _high(stem, force))
 
 
