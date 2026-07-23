@@ -135,16 +135,20 @@ The remaining errors concentrate on the two rules that interact with the stem's 
 
 The 0% to 77% figures above are a **generation** task: the model writes the inflected form and it must match exactly. That is harder than the four-option benchmark the GPT models took, where a lucky guess scores 25%. To compare all four models fairly, the two Qwen models were also run on the same 300 multiple-choice items:
 
-![four models on the same MCQ task](results/report/mcq_four_models.png)
+![open models vs frontier on the same MCQ task](results/report/mcq_four_models.png)
 
-| model | MCQ accuracy |
-|---|---|
-| gpt-4o | 82.7% |
-| gpt-4o-mini | 65.7% |
-| Qwen-0.5B + our LoRA | 40.0% |
-| Qwen-0.5B base | 29.3% |
+| model | MCQ accuracy | generation accuracy |
+|---|---|---|
+| gpt-4o (base) | 82.7% | not run |
+| gpt-4o-mini (base) | 65.7% | not run |
+| Qwen-3B + our LoRA | 47.0% | 73.8% |
+| Qwen-0.5B + our LoRA | 40.0% | 77.0% |
+| Qwen-3B (base) | 28.0% | 0.0% |
+| Qwen-0.5B (base) | 29.3% | 0.0% |
 
-On equal footing the fine-tuned 0.5B model does **not** overtake the frontier models: it moves from just above chance (29%) to 40%, while gpt-4o-mini and gpt-4o are far ahead. The lesson is that the two tasks measure different things. Fine-tuning on rule data genuinely teaches the model to *produce* inflected forms (the 77% generation result), but multiple choice also demands parsing a Kyrgyz question and weighing four distractors, which stretches the language understanding a 0.5B model does not have. A larger base model would be the fair target for the fine-tuning intervention, and is the obvious next experiment.
+Three things are visible once every model is on the same footing. First, fine-tuning on rule data helps: both open models rise well above chance. Second, a larger base benefits more from it: the 3B model gains 19 points on multiple choice against the 0.5B model's 11, so the intervention scales with the base. Third, and honestly, the fine-tuned open models still trail the frontier ones on multiple choice: 47% for the tuned 3B against 65.7% for gpt-4o-mini.
+
+The two tasks measure different abilities and should not be conflated. On *generation*, where the model must write the form, fine-tuning takes both open models from 0% to the mid-70s, so the rules are genuinely learned. On *recognition*, where the model reads a Kyrgyz question and weighs four distractors, the bottleneck is broader language understanding rather than morphology, which is why the small models lag even after training and why base model quality dominates. Closing the recognition gap would take a still larger base; the upward trend from 0.5B to 3B suggests it is reachable, and doing it on a frontier-scale open model is the natural next experiment.
 
 ## Files
 
