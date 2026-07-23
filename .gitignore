@@ -13,3 +13,5 @@ adapters/
 adapters_big/
 adapters_apertium/
 adapters_multi/
+
+openai_data/
