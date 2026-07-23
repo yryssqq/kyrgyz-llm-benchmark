@@ -1,0 +1,3410 @@
+{
+  "model": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+  "adapter": null,
+  "accuracy": 0.0,
+  "n": 567,
+  "records": [
+    {
+      "instruction": "«чок» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "чоктор",
+      "prediction": "чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "чоктун",
+      "prediction": "чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "чокко",
+      "prediction": "Чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "чокту",
+      "prediction": "чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "чокто",
+      "prediction": "чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "чоктон",
+      "prediction": "Чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "чогум",
+      "prediction": "чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "чогуң",
+      "prediction": "чок",
+      "correct": false
+    },
+    {
+      "instruction": "«чок» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "чогу",
+      "prediction": "чок",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "күңкүлдөр",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "күңкүлдүн",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "күңкүлгө",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "күңкүлдү",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "күңкүлдө",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "күңкүлдөн",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "күңкүлүм",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "күңкүлүң",
+      "prediction": "Күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«күңкүл» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "күңкүлү",
+      "prediction": "күңкүл",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "жасатмалар",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "жасатманын",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "жасатмага",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "жасатманы",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "жасатмада",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "жасатмадан",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "жасатмам",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "жасатмаң",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«жасатма» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жасатмасы",
+      "prediction": "Жасатма",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "кочкорлор",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "кочкордун",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "кочкорго",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "кочкорду",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "кочкордо",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "кочкордон",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "кочкорум",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "кочкоруң",
+      "prediction": "Кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«кочкор» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "кочкору",
+      "prediction": "кочкор",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "шымдар",
+      "prediction": "Шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "шымдын",
+      "prediction": "Шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "шымга",
+      "prediction": "Шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "шымды",
+      "prediction": "Шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "шымда",
+      "prediction": "Шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "шымдан",
+      "prediction": "Шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "шымым",
+      "prediction": "шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "шымың",
+      "prediction": "шым",
+      "correct": false
+    },
+    {
+      "instruction": "«шым» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "шымы",
+      "prediction": "шым",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "күлүктөр",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "күлүктүн",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "күлүккө",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "күлүктү",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "күлүктө",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "күлүктөн",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "күлүгүм",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "күлүгүң",
+      "prediction": "Күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«күлүк» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "күлүгү",
+      "prediction": "күлүк",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "бариттер",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "бариттин",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "баритке",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "баритти",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "баритте",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "бариттен",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "баритим",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "баритиң",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«барит» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "барити",
+      "prediction": "барит",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "көндүрүүлөр",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "көндүрүүнүн",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "көндүрүүгө",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "көндүрүүнү",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "көндүрүүдө",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "көндүрүүдөн",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "көндүрүүм",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "көндүрүүң",
+      "prediction": "Көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«көндүрүү» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "көндүрүүсү",
+      "prediction": "көндүрүү",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "туумдар",
+      "prediction": "Тюм",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "туумдун",
+      "prediction": "Тюм",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "туумга",
+      "prediction": "Тюм",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "туумду",
+      "prediction": "Тюм",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "туумда",
+      "prediction": "Тюм",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "туумдан",
+      "prediction": "Тюм",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "туумум",
+      "prediction": "туум",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "туумуң",
+      "prediction": "туум",
+      "correct": false
+    },
+    {
+      "instruction": "«туум» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "тууму",
+      "prediction": "туум",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "гарнизондор",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "гарнизондун",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "гарнизонго",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "гарнизонду",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "гарнизондо",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "гарнизондон",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "гарнизонум",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "гарнизонуң",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«гарнизон» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "гарнизону",
+      "prediction": "гарнизон",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "идеалдар",
+      "prediction": "Идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "идеалдын",
+      "prediction": "Идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "идеалга",
+      "prediction": "Идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "идеалды",
+      "prediction": "идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "идеалда",
+      "prediction": "Идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "идеалдан",
+      "prediction": "Идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "идеалым",
+      "prediction": "идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "идеалың",
+      "prediction": "идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«идеал» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "идеалы",
+      "prediction": "Идеал",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "өндүрүмдөр",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "өндүрүмдүн",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "өндүрүмгө",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "өндүрүмдү",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "өндүрүмдө",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "өндүрүмдөн",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "өндүрүмүм",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "өндүрүмүң",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өндүрүм» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "өндүрүмү",
+      "prediction": "Өндүрүм",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "өзөндөр",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "өзөндүн",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "өзөнгө",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "өзөндү",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "өзөндө",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "өзөндөн",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "өзөнүм",
+      "prediction": "Менин",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "өзөнүң",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өзөн» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "өзөнү",
+      "prediction": "Өзөн",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "өрүктөр",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "өрүктүн",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "өрүккө",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "өрүктү",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "өрүктө",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "өрүктөн",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "өрүгүм",
+      "prediction": "Менин",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "өрүгүң",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«өрүк» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "өрүгү",
+      "prediction": "Өрүк",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "рубидийлер",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "рубидийдин",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "рубидийге",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "рубидийди",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "рубидийде",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "рубидийден",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "рубидийим",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "рубидийиң",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«рубидий» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "рубидийи",
+      "prediction": "рубидий",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "беренелер",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "берененин",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "беренеге",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "беренени",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "беренеде",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "беренеден",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "беренем",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "беренең",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«берене» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "беренеси",
+      "prediction": "Берене",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "арноолор",
+      "prediction": "Арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "арноонун",
+      "prediction": "Арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "арноого",
+      "prediction": "Арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "арноону",
+      "prediction": "Арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "арноодо",
+      "prediction": "Арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "арноодон",
+      "prediction": "Арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "арноом",
+      "prediction": "арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "арнооң",
+      "prediction": "арноо",
+      "correct": false
+    },
+    {
+      "instruction": "«арноо» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "арноосу",
+      "prediction": "Анны",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "жэрлер",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "жэрдин",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "жэрге",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "жэрди",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "жэрде",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "жэрден",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "жэрим",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "жэриң",
+      "prediction": "Жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«жэр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жэри",
+      "prediction": "жэр",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "крандар",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "крандын",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "кранга",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "кранды",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "кранда",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "крандан",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "краным",
+      "prediction": "Краны",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "краның",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«кран» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "краны",
+      "prediction": "Кран",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "абдестелер",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "абдестенин",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "абдестеге",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "абдестени",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "абдестеде",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "абдестеден",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "абдестем",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "абдестең",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«абдесте» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "абдестеси",
+      "prediction": "абдесте",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "төрлөр",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "төрдүн",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "төргө",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "төрдү",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "төрдө",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "төрдөн",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "төрүм",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "төрүң",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«төр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "төрү",
+      "prediction": "төр",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "зарылдыктар",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "зарылдыктын",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "зарылдыкка",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "зарылдыкты",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "зарылдыкта",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "зарылдыктан",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "зарылдыгым",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "зарылдыгың",
+      "prediction": "Зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«зарылдык» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "зарылдыгы",
+      "prediction": "зарылдык",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "түрлөр",
+      "prediction": "түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "түрдүн",
+      "prediction": "Түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "түргө",
+      "prediction": "Түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "түрдү",
+      "prediction": "түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "түрдө",
+      "prediction": "Түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "түрдөн",
+      "prediction": "Түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "түрүм",
+      "prediction": "түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "түрүң",
+      "prediction": "түр",
+      "correct": false
+    },
+    {
+      "instruction": "«түр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "түрү",
+      "prediction": "түр",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "кекириктер",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "кекириктин",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "кекирикке",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "кекирикти",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "кекирикте",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "кекириктен",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "кекиригим",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "кекиригиң",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«кекирик» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "кекириги",
+      "prediction": "Кекирик",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "бүлөөлөр",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "бүлөөнүн",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүлөөгө",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүлөөнү",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүлөөдө",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүлөөдөн",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "бүлөөм",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "бүлөөң",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүлөө» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "бүлөөсү",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "түлкүлөр",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "түлкүнүн",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "түлкүгө",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "түлкүнү",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "түлкүдө",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "түлкүдөн",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "түлкүм",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "түлкүң",
+      "prediction": "Түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түлкү» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "түлкүсү",
+      "prediction": "түлкү",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "түндүктөр",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "түндүктүн",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "түндүккө",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "түндүктү",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "түндүктө",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "түндүктөн",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "түндүгүм",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "түндүгүң",
+      "prediction": "Түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«түндүк» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "түндүгү",
+      "prediction": "түндүк",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "келиндер",
+      "prediction": "Келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "келиндин",
+      "prediction": "Келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "келинге",
+      "prediction": "Келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "келинди",
+      "prediction": "Келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "келинде",
+      "prediction": "Келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "келинден",
+      "prediction": "Келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "келиним",
+      "prediction": "келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "келиниң",
+      "prediction": "Келин",
+      "correct": false
+    },
+    {
+      "instruction": "«келин» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "келини",
+      "prediction": "келин",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "монологдор",
+      "prediction": "Monologue",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "монологдун",
+      "prediction": "Monologue",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "монологго",
+      "prediction": "Monologue",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "монологду",
+      "prediction": "Monologue",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "монологдо",
+      "prediction": "Monologue",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "монологдон",
+      "prediction": "Monologue",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "монологум",
+      "prediction": "монолог",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "монологуң",
+      "prediction": "Monologue",
+      "correct": false
+    },
+    {
+      "instruction": "«монолог» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "монологу",
+      "prediction": "монолог",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "ректорлор",
+      "prediction": "ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "ректордун",
+      "prediction": "ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "ректорго",
+      "prediction": "Ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "ректорду",
+      "prediction": "ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "ректордо",
+      "prediction": "ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "ректордон",
+      "prediction": "Ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "ректорум",
+      "prediction": "ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "ректоруң",
+      "prediction": "ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«ректор» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "ректору",
+      "prediction": "ректор",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "шарктар",
+      "prediction": "Шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "шарктын",
+      "prediction": "Шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "шаркка",
+      "prediction": "Шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "шаркты",
+      "prediction": "Шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "шаркта",
+      "prediction": "Шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "шарктан",
+      "prediction": "Шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "шаргым",
+      "prediction": "Шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "шаргың",
+      "prediction": "шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«шарк» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "шаргы",
+      "prediction": "шарк",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "принтерлер",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "принтердин",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "принтерге",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "принтерди",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "принтерде",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "принтерден",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "принтерим",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "принтериң",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«принтер» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "принтери",
+      "prediction": "принтер",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "тутамдар",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "тутамдын",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "тутамга",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "тутамды",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "тутамда",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "тутамдан",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "тутамым",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "тутамың",
+      "prediction": "Тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«тутам» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "тутамы",
+      "prediction": "тутам",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "желдер",
+      "prediction": "жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "желдин",
+      "prediction": "Жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "желге",
+      "prediction": "Жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "желди",
+      "prediction": "жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "желде",
+      "prediction": "Жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "желден",
+      "prediction": "Жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "желим",
+      "prediction": "Жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "желиң",
+      "prediction": "Жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жел» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жели",
+      "prediction": "жел",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "жыбырлар",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "жыбырдын",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "жыбырга",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "жыбырды",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "жыбырда",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "жыбырдан",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "жыбырым",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "жыбырың",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«жыбыр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жыбыры",
+      "prediction": "Жыбыр",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "бекеттер",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "бекеттин",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "бекетке",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "бекетти",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "бекетте",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "бекеттен",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "бекетим",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "бекетиң",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бекет» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "бекети",
+      "prediction": "Бекет",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "бүчүрлөр",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "бүчүрдүн",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүчүргө",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүчүрдү",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүчүрдө",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "бүчүрдөн",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "бүчүрүм",
+      "prediction": "Бирок",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "бүчүрүң",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«бүчүр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "бүчүрү",
+      "prediction": "Бул",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "мөөрлөр",
+      "prediction": "мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "мөөрдүн",
+      "prediction": "Мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "мөөргө",
+      "prediction": "Мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "мөөрдү",
+      "prediction": "Мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "мөөрдө",
+      "prediction": "Мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "мөөрдөн",
+      "prediction": "Мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "мөөрүм",
+      "prediction": "мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "мөөрүң",
+      "prediction": "мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«мөөр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "мөөрү",
+      "prediction": "мөөр",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "жерлер",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "жердин",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "жерге",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "жерди",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "жерде",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "жерден",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "жерим",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "жериң",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«жер» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жери",
+      "prediction": "жер",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "көрлөр",
+      "prediction": "Көрүнүн",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "көрдүн",
+      "prediction": "көр",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "көргө",
+      "prediction": "Көр",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "көрдү",
+      "prediction": "Көрүнүн",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "көрдө",
+      "prediction": "Көрүнүн",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "көрдөн",
+      "prediction": "Көрүнүн",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "көрүм",
+      "prediction": "көр",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "көрүң",
+      "prediction": "Көрүнүн",
+      "correct": false
+    },
+    {
+      "instruction": "«көр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "көрү",
+      "prediction": "көр",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "ашамалар",
+      "prediction": "ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "ашаманын",
+      "prediction": "ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "ашамага",
+      "prediction": "Ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "ашаманы",
+      "prediction": "ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "ашамада",
+      "prediction": "Ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "ашамадан",
+      "prediction": "Ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "ашамам",
+      "prediction": "ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "ашамаң",
+      "prediction": "ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«ашама» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "ашамасы",
+      "prediction": "ашама",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "морлор",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "мордун",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "морго",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "морду",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "мордо",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "мордон",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "морум",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "моруң",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«мор» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "мору",
+      "prediction": "мор",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "жөндөр",
+      "prediction": "жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "жөндүн",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "жөнгө",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "жөндү",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "жөндө",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "жөндөн",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "жөнүм",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "жөнүң",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«жөн» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жөнү",
+      "prediction": "Жөн",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "пайлар",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "пайдын",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "пайга",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "пайды",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "пайда",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "пайдан",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "пайым",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "пайың",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«пай» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "пайы",
+      "prediction": "пай",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "аяздар",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "аяздын",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "аязга",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "аязды",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "аязда",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "аяздан",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "аязым",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "аязың",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«аяз» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "аязы",
+      "prediction": "аяз",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "айлалар",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "айланын",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "айлага",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "айланы",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "айлада",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "айладан",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "айлам",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "айлаң",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«айла» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "айласы",
+      "prediction": "айла",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "сөөктөр",
+      "prediction": "Сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "сөөктүн",
+      "prediction": "Сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "сөөккө",
+      "prediction": "Сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "сөөктү",
+      "prediction": "Сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "сөөктө",
+      "prediction": "Сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "сөөктөн",
+      "prediction": "Сөзүнүн",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "сөөгүм",
+      "prediction": "сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "сөөгүң",
+      "prediction": "Сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«сөөк» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "сөөгү",
+      "prediction": "сөөк",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "агароттор",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "агароттун",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "агаротко",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "агаротту",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "агаротто",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "агароттон",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "агаротум",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "агаротуң",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«агарот» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "агароту",
+      "prediction": "Арат",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "ишенимдер",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "ишенимдин",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишенимге",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишенимди",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишенимде",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишенимден",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "ишенимим",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "ишенимиң",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«ишеним» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "ишеними",
+      "prediction": "Ишеним",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "барымталар",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "барымтанын",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "барымтага",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "барымтаны",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "барымтада",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "барымтадан",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "барымтам",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "барымтаң",
+      "prediction": "Барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«барымта» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "барымтасы",
+      "prediction": "барымта",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "көлдөлөңдөр",
+      "prediction": "Көлөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "көлдөлөңдүн",
+      "prediction": "Көлөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "көлдөлөңгө",
+      "prediction": "Көлөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "көлдөлөңдү",
+      "prediction": "Көлөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "көлдөлөңдө",
+      "prediction": "Көлөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "көлдөлөңдөн",
+      "prediction": "Көлөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "көлдөлөңүм",
+      "prediction": "көлдөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "көлдөлөңүң",
+      "prediction": "Көлөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«көлдөлөң» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "көлдөлөңү",
+      "prediction": "көлдөлөң",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "эркечтер",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "эркечтин",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "эркечке",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "эркечти",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "эркечте",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "эркечтен",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "эркечим",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "эркечиң",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«эркеч» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "эркечи",
+      "prediction": "эркеч",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "жубайлар",
+      "prediction": "жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "жубайдын",
+      "prediction": "Жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "жубайга",
+      "prediction": "Жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "жубайды",
+      "prediction": "Жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "жубайда",
+      "prediction": "Жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "жубайдан",
+      "prediction": "Жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "жубайым",
+      "prediction": "жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "жубайың",
+      "prediction": "Жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жубай» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жубайы",
+      "prediction": "жубай",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "жүктөр",
+      "prediction": "жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "жүктүн",
+      "prediction": "Жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "жүккө",
+      "prediction": "Жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "жүктү",
+      "prediction": "Жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "жүктө",
+      "prediction": "Жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "жүктөн",
+      "prediction": "Жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "жүгүм",
+      "prediction": "Жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "жүгүң",
+      "prediction": "Жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«жүк» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "жүгү",
+      "prediction": "жүк",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "табышмактар",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "табышмактын",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "табышмакка",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "табышмакты",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "табышмакта",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "табышмактан",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "табышмагым",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "табышмагың",
+      "prediction": "Табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«табышмак» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "табышмагы",
+      "prediction": "табышмак",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "ишкердиктер",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "ишкердиктин",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишкердикке",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишкердикти",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишкердикте",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "ишкердиктен",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "ишкердигим",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "ишкердигиң",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«ишкердик» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "ишкердиги",
+      "prediction": "Ишкердик",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "нектарлар",
+      "prediction": "Нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "нектардын",
+      "prediction": "Нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "нектарга",
+      "prediction": "Нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "нектарды",
+      "prediction": "Нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "нектарда",
+      "prediction": "Нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "нектардан",
+      "prediction": "Нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "нектарым",
+      "prediction": "нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "нектарың",
+      "prediction": "нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«нектар» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "нектары",
+      "prediction": "нектар",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "театрлар",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "театрдын",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "театрга",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "театрды",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "театрда",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "театрдан",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "театрым",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "театрың",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«театр» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "театры",
+      "prediction": "театр",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "теңдиктер",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "теңдиктин",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "теңдикке",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "теңдикти",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "теңдикте",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "теңдиктен",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "теңдигим",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "теңдигиң",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«теңдик» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "теңдиги",
+      "prediction": "теңдик",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "инсандар",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "инсандын",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "инсанга",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "инсанды",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "инсанда",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "инсандан",
+      "prediction": "Инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "инсаным",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "инсаның",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«инсан» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "инсаны",
+      "prediction": "инсан",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "рентгендер",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "рентгендин",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "рентгенге",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "рентгенди",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "рентгенде",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "рентгенден",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "рентгеним",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "рентгениң",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«рентген» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "рентгени",
+      "prediction": "рентген",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "айланалар",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "айлананын",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "айланага",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "айлананы",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "айланада",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "айланадан",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "айланам",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "айланаң",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«айлана» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "айланасы",
+      "prediction": "айлана",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн көптүк түрүн жазыңыз.",
+      "gold": "ичинделер",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн илик жөндөмө түрүн жазыңыз.",
+      "gold": "ичинденин",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн барыш жөндөмө түрүн жазыңыз.",
+      "gold": "ичиндеге",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн табыш жөндөмө түрүн жазыңыз.",
+      "gold": "ичиндени",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн жатыш жөндөмө түрүн жазыңыз.",
+      "gold": "ичиндеде",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн чыгыш жөндөмө түрүн жазыңыз.",
+      "gold": "ичиндеден",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн «менин» таандык түрүн жазыңыз.",
+      "gold": "ичиндем",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн «сенин» таандык түрүн жазыңыз.",
+      "gold": "ичиндең",
+      "prediction": "ичинде",
+      "correct": false
+    },
+    {
+      "instruction": "«ичинде» сөзүнүн «анын» таандык түрүн жазыңыз.",
+      "gold": "ичиндеси",
+      "prediction": "ичинде",
+      "correct": false
+    }
+  ]
+}

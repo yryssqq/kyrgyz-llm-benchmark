@@ -77,7 +77,20 @@ python eval_local.py                      # base
 python eval_local.py --adapter adapters   # fine-tuned
 ```
 
-On 22 training stems, Qwen2.5-0.5B goes from 0% to 16.7% on held-out words. The base model does not inflect at all, it echoes the stem; after training it produces inflected forms but often picks the wrong harmony class. The stem list is the bottleneck, not the method.
+The base model does not inflect at all: asked for the plural of `чок` it answers `чок`. After training on rule-generated forms it reaches **74.1%** on words it never saw.
+
+![fine-tuning scaling](results/report/finetune_scaling.png)
+
+| training stems | held-out accuracy | test items |
+|---|---|---|
+| 0 (base model) | 0.0% | 567 |
+| 22 | 16.7% | 54 |
+| 105 | 65.9% | 270 |
+| 225 | **74.1%** | 567 |
+
+Each run holds out a fifth of the stems, so accuracy is measured only on words absent from training; the gain is generalisation of the rules, not memorised forms. Test sets differ in size between runs because they are drawn from the stem list being used. Training takes about 20 minutes on an M1 Air at 1.1 GB peak memory.
+
+The remaining errors concentrate on the two rules that interact with the stem's final consonant: intervocalic voicing (`чогум` produced as `чокум`) and devoicing after a voiceless stop (`чокту` as `чокду`).
 
 ## Files
 
