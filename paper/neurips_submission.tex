@@ -201,12 +201,15 @@ imbalance is visible.
 \section{Experimental Setup}
 \label{sec:setup}
 
-\paragraph{Models.} I evaluate \texttt{gpt-4o} and \texttt{gpt-4o-mini} \cite{openai2023gpt4} on the core
-benchmark. The fine-tuning study additionally uses the open models
-\texttt{Qwen2.5-0.5B-Instruct} and \texttt{Qwen2.5-3B-Instruct} \cite{qwen2025}.
-TODO: fix exact model version strings and access dates, and add further frontier
-models (for example Gemini and Claude) to show the dissociation is not specific to one
-provider.
+\paragraph{Models.} I evaluate the OpenAI models \texttt{gpt-4o} and
+\texttt{gpt-4o-mini} \cite{openai2023gpt4}, accessed through the API by their default
+aliases rather than a pinned dated snapshot. The core benchmark was run on 22 July 2026
+and the 300-item morphology benchmark on 24 July 2026. The fine-tuning study
+additionally uses the open models \texttt{Qwen2.5-0.5B-Instruct} and
+\texttt{Qwen2.5-3B-Instruct} \cite{qwen2025}, in their 4-bit MLX conversions
+(\texttt{mlx-community/Qwen2.5-0.5B-Instruct-4bit} and \texttt{Qwen2.5-3B-Instruct-4bit}).
+Extending the evaluation to further frontier models (for example Gemini and Claude) to
+show the dissociation is not specific to one provider is left to future work.
 
 \paragraph{Prompting.} Items are presented in Kyrgyz with numbered options and the
 model is asked to reply with a single digit. Numeric labels rather than A/B/C/D avoid
