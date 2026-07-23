@@ -1,0 +1,4202 @@
+[
+  {
+    "item_id": "gen_poss_1sg_мүлк",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«мүлк» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "мүлгым",
+      "мүлгүм",
+      "мүлгум",
+      "мүлгим"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 1sg of мүлк is мүлгүм."
+  },
+  {
+    "item_id": "gen_poss_1sg_көмүр",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«көмүр» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "көмүрым",
+      "көмүрүм",
+      "көмүрум",
+      "көмүрим"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 1sg of көмүр is көмүрүм."
+  },
+  {
+    "item_id": "gen_poss_3sg_тиеше",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«тиеше» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "тиешесы",
+      "тиешесу",
+      "тиешеси",
+      "тиешесү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of тиеше is тиешеси."
+  },
+  {
+    "item_id": "gen_ablative_дем",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«дем» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "демдан",
+      "демдон",
+      "демдөн",
+      "демден"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of дем is демден."
+  },
+  {
+    "item_id": "gen_genitive_өнөр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өнөр» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өнөрдын",
+      "өнөрдун",
+      "өнөрдүн",
+      "өнөрдин"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of өнөр is өнөрдүн."
+  },
+  {
+    "item_id": "gen_accusative_бала",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бала» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "балану",
+      "баланы",
+      "балани",
+      "баланү"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of бала is баланы."
+  },
+  {
+    "item_id": "gen_accusative_алтын",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«алтын» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "алтынду",
+      "алтынди",
+      "алтынды",
+      "алтындү"
+    ],
+    "answer_index": 2,
+    "explanation": "The accusative of алтын is алтынды."
+  },
+  {
+    "item_id": "gen_locative_жума",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жума» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жумадо",
+      "жумаде",
+      "жумада",
+      "жумадө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of жума is жумада."
+  },
+  {
+    "item_id": "gen_locative_жумуш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жумуш» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жумушто",
+      "жумуште",
+      "жумушта",
+      "жумуштө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of жумуш is жумушта."
+  },
+  {
+    "item_id": "gen_ablative_жүгөрү",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жүгөрү» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жүгөрүдан",
+      "жүгөрүдон",
+      "жүгөрүдөн",
+      "жүгөрүден"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of жүгөрү is жүгөрүдөн."
+  },
+  {
+    "item_id": "gen_plural_кесип",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«кесип» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "кесиптар",
+      "кесиптор",
+      "кесиптөр",
+      "кесиптер"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of кесип is кесиптер."
+  },
+  {
+    "item_id": "gen_accusative_жүк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жүк» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жүктү",
+      "жүкты",
+      "жүкту",
+      "жүкти"
+    ],
+    "answer_index": 0,
+    "explanation": "The accusative of жүк is жүктү."
+  },
+  {
+    "item_id": "gen_plural_керек",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«керек» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "керектар",
+      "керектор",
+      "керектер",
+      "керектөр"
+    ],
+    "answer_index": 2,
+    "explanation": "The plural of керек is керектер."
+  },
+  {
+    "item_id": "gen_poss_1sg_тутум",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«тутум» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "тутумым",
+      "тутумим",
+      "тутумүм",
+      "тутумум"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of тутум is тутумум."
+  },
+  {
+    "item_id": "gen_plural_медресе",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«медресе» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "медреселар",
+      "медреселор",
+      "медреселер",
+      "медреселөр"
+    ],
+    "answer_index": 2,
+    "explanation": "The plural of медресе is медреселер."
+  },
+  {
+    "item_id": "gen_genitive_буудай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«буудай» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "буудайдун",
+      "буудайдин",
+      "буудайдүн",
+      "буудайдын"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of буудай is буудайдын."
+  },
+  {
+    "item_id": "gen_accusative_тиеше",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тиеше» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тиешены",
+      "тиешени",
+      "тиешену",
+      "тиешенү"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of тиеше is тиешени."
+  },
+  {
+    "item_id": "gen_plural_жыйын",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«жыйын» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "жыйындор",
+      "жыйындер",
+      "жыйындөр",
+      "жыйындар"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of жыйын is жыйындар."
+  },
+  {
+    "item_id": "gen_poss_3sg_улут",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«улут» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "улуты",
+      "улуту",
+      "улути",
+      "улутү"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 3sg of улут is улуту."
+  },
+  {
+    "item_id": "gen_poss_2sg_жооп",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жооп» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жообың",
+      "жообуң",
+      "жообиң",
+      "жообүң"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of жооп is жообуң."
+  },
+  {
+    "item_id": "gen_accusative_чөнтөк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«чөнтөк» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "чөнтөкты",
+      "чөнтөктү",
+      "чөнтөкту",
+      "чөнтөкти"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of чөнтөк is чөнтөктү."
+  },
+  {
+    "item_id": "gen_dative_түрк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«түрк» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "түркка",
+      "түркко",
+      "түрккө",
+      "түркке"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of түрк is түрккө."
+  },
+  {
+    "item_id": "gen_ablative_тур",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тур» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "турдон",
+      "турдан",
+      "турден",
+      "турдөн"
+    ],
+    "answer_index": 1,
+    "explanation": "The ablative of тур is турдан."
+  },
+  {
+    "item_id": "gen_ablative_кабар",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кабар» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кабардон",
+      "кабарден",
+      "кабардан",
+      "кабардөн"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of кабар is кабардан."
+  },
+  {
+    "item_id": "gen_genitive_жолу",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жолу» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жолунын",
+      "жолунин",
+      "жолунун",
+      "жолунүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of жолу is жолунун."
+  },
+  {
+    "item_id": "gen_dative_мүлк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мүлк» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мүлкка",
+      "мүлккө",
+      "мүлкко",
+      "мүлкке"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of мүлк is мүлккө."
+  },
+  {
+    "item_id": "gen_poss_3sg_чакырым",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«чакырым» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "чакырыму",
+      "чакырыми",
+      "чакырымы",
+      "чакырымү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of чакырым is чакырымы."
+  },
+  {
+    "item_id": "gen_plural_сүрөт",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«сүрөт» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "сүрөттар",
+      "сүрөттөр",
+      "сүрөттор",
+      "сүрөттер"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of сүрөт is сүрөттөр."
+  },
+  {
+    "item_id": "gen_dative_түн",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«түн» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "түнга",
+      "түнго",
+      "түнге",
+      "түнгө"
+    ],
+    "answer_index": 3,
+    "explanation": "The dative of түн is түнгө."
+  },
+  {
+    "item_id": "gen_locative_маалымат",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«маалымат» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "маалыматта",
+      "маалыматто",
+      "маалыматте",
+      "маалыматтө"
+    ],
+    "answer_index": 0,
+    "explanation": "The locative of маалымат is маалыматта."
+  },
+  {
+    "item_id": "gen_accusative_отурум",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«отурум» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "отурумды",
+      "отурумди",
+      "отурумдү",
+      "отурумду"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of отурум is отурумду."
+  },
+  {
+    "item_id": "gen_dative_согуш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«согуш» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "согушко",
+      "согушке",
+      "согушка",
+      "согушкө"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of согуш is согушка."
+  },
+  {
+    "item_id": "gen_locative_көмүр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«көмүр» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "көмүрда",
+      "көмүрдо",
+      "көмүрде",
+      "көмүрдө"
+    ],
+    "answer_index": 3,
+    "explanation": "The locative of көмүр is көмүрдө."
+  },
+  {
+    "item_id": "gen_poss_1sg_тургун",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«тургун» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "тургунум",
+      "тургуным",
+      "тургуним",
+      "тургунүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of тургун is тургунум."
+  },
+  {
+    "item_id": "gen_ablative_чечим",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«чечим» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "чечимдан",
+      "чечимдон",
+      "чечимден",
+      "чечимдөн"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of чечим is чечимден."
+  },
+  {
+    "item_id": "gen_poss_1sg_мелдеш",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«мелдеш» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "мелдешим",
+      "мелдешым",
+      "мелдешум",
+      "мелдешүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of мелдеш is мелдешим."
+  },
+  {
+    "item_id": "gen_poss_3sg_сапар",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«сапар» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "сапару",
+      "сапары",
+      "сапари",
+      "сапарү"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 3sg of сапар is сапары."
+  },
+  {
+    "item_id": "gen_accusative_күмүш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«күмүш» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "күмүшты",
+      "күмүштү",
+      "күмүшту",
+      "күмүшти"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of күмүш is күмүштү."
+  },
+  {
+    "item_id": "gen_accusative_чарба",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«чарба» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "чарбаны",
+      "чарбану",
+      "чарбани",
+      "чарбанү"
+    ],
+    "answer_index": 0,
+    "explanation": "The accusative of чарба is чарбаны."
+  },
+  {
+    "item_id": "gen_locative_дүнүйө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«дүнүйө» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "дүнүйөда",
+      "дүнүйөдо",
+      "дүнүйөде",
+      "дүнүйөдө"
+    ],
+    "answer_index": 3,
+    "explanation": "The locative of дүнүйө is дүнүйөдө."
+  },
+  {
+    "item_id": "gen_locative_буудай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«буудай» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "буудайдо",
+      "буудайде",
+      "буудайда",
+      "буудайдө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of буудай is буудайда."
+  },
+  {
+    "item_id": "gen_genitive_топ",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«топ» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "топтын",
+      "топтин",
+      "топтүн",
+      "топтун"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of топ is топтун."
+  },
+  {
+    "item_id": "gen_locative_ыктыяр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«ыктыяр» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "ыктыярдо",
+      "ыктыярде",
+      "ыктыярдө",
+      "ыктыярда"
+    ],
+    "answer_index": 3,
+    "explanation": "The locative of ыктыяр is ыктыярда."
+  },
+  {
+    "item_id": "gen_dative_тилке",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тилке» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тилкега",
+      "тилкеге",
+      "тилкего",
+      "тилкегө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of тилке is тилкеге."
+  },
+  {
+    "item_id": "gen_locative_мекеме",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мекеме» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мекемеда",
+      "мекемеде",
+      "мекемедо",
+      "мекемедө"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of мекеме is мекемеде."
+  },
+  {
+    "item_id": "gen_poss_3sg_керек",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«керек» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "керегы",
+      "керегу",
+      "кереги",
+      "керегү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of керек is кереги."
+  },
+  {
+    "item_id": "gen_dative_күрүч",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«күрүч» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "күрүчка",
+      "күрүчкө",
+      "күрүчко",
+      "күрүчке"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of күрүч is күрүчкө."
+  },
+  {
+    "item_id": "gen_poss_3sg_ооз",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«ооз» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "оозы",
+      "оози",
+      "оозү",
+      "оозу"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of ооз is оозу."
+  },
+  {
+    "item_id": "gen_poss_2sg_түгөй",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«түгөй» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "түгөйүң",
+      "түгөйың",
+      "түгөюң",
+      "түгөйиң"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 2sg of түгөй is түгөйүң."
+  },
+  {
+    "item_id": "gen_plural_көз",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«көз» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "көздөр",
+      "көздар",
+      "көздор",
+      "көздер"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of көз is көздөр."
+  },
+  {
+    "item_id": "gen_ablative_көргөзмө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«көргөзмө» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "көргөзмөдан",
+      "көргөзмөдон",
+      "көргөзмөдөн",
+      "көргөзмөден"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of көргөзмө is көргөзмөдөн."
+  },
+  {
+    "item_id": "gen_locative_бой",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бой» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бойда",
+      "бойдо",
+      "бойде",
+      "бойдө"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of бой is бойдо."
+  },
+  {
+    "item_id": "gen_accusative_кызмат",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кызмат» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кызматту",
+      "кызматти",
+      "кызматты",
+      "кызматтү"
+    ],
+    "answer_index": 2,
+    "explanation": "The accusative of кызмат is кызматты."
+  },
+  {
+    "item_id": "gen_locative_эне",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«эне» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "энеде",
+      "энеда",
+      "энедо",
+      "энедө"
+    ],
+    "answer_index": 0,
+    "explanation": "The locative of эне is энеде."
+  },
+  {
+    "item_id": "gen_ablative_кечирим",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кечирим» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кечиримдан",
+      "кечиримдон",
+      "кечиримдөн",
+      "кечиримден"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of кечирим is кечиримден."
+  },
+  {
+    "item_id": "gen_ablative_көйгөй",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«көйгөй» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "көйгөйдан",
+      "көйгөйдон",
+      "көйгөйдөн",
+      "көйгөйден"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of көйгөй is көйгөйдөн."
+  },
+  {
+    "item_id": "gen_plural_кезек",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«кезек» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "кезектар",
+      "кезектор",
+      "кезектөр",
+      "кезектер"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of кезек is кезектер."
+  },
+  {
+    "item_id": "gen_poss_2sg_коло",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«коло» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "колоң",
+      "кололор",
+      "колону",
+      "колонун"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 2sg of коло is колоң."
+  },
+  {
+    "item_id": "gen_poss_3sg_себеп",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«себеп» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "себебы",
+      "себебу",
+      "себебү",
+      "себеби"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of себеп is себеби."
+  },
+  {
+    "item_id": "gen_ablative_мекенчил",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мекенчил» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мекенчилден",
+      "мекенчилдан",
+      "мекенчилдон",
+      "мекенчилдөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of мекенчил is мекенчилден."
+  },
+  {
+    "item_id": "gen_plural_мүлк",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«мүлк» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "мүлктар",
+      "мүлктор",
+      "мүлктер",
+      "мүлктөр"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of мүлк is мүлктөр."
+  },
+  {
+    "item_id": "gen_locative_өлкө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өлкө» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өлкөдө",
+      "өлкөда",
+      "өлкөдо",
+      "өлкөде"
+    ],
+    "answer_index": 0,
+    "explanation": "The locative of өлкө is өлкөдө."
+  },
+  {
+    "item_id": "gen_plural_улут",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«улут» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "улуттор",
+      "улуттар",
+      "улуттер",
+      "улуттөр"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of улут is улуттар."
+  },
+  {
+    "item_id": "gen_poss_2sg_эсеп",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«эсеп» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "эсебың",
+      "эсебуң",
+      "эсебүң",
+      "эсебиң"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of эсеп is эсебиң."
+  },
+  {
+    "item_id": "gen_poss_1sg_пайыз",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«пайыз» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "пайызым",
+      "пайызум",
+      "пайызим",
+      "пайызүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of пайыз is пайызым."
+  },
+  {
+    "item_id": "gen_plural_кеңешме",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«кеңешме» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "кеңешмелар",
+      "кеңешмелор",
+      "кеңешмелер",
+      "кеңешмелөр"
+    ],
+    "answer_index": 2,
+    "explanation": "The plural of кеңешме is кеңешмелер."
+  },
+  {
+    "item_id": "gen_poss_2sg_ийгилик",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«ийгилик» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "ийгилигың",
+      "ийгилигиң",
+      "ийгилигуң",
+      "ийгилигүң"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of ийгилик is ийгилигиң."
+  },
+  {
+    "item_id": "gen_locative_айыл",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«айыл» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "айылда",
+      "айылдо",
+      "айылде",
+      "айылдө"
+    ],
+    "answer_index": 0,
+    "explanation": "The locative of айыл is айылда."
+  },
+  {
+    "item_id": "gen_accusative_базар",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«базар» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "базарду",
+      "базарди",
+      "базардү",
+      "базарды"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of базар is базарды."
+  },
+  {
+    "item_id": "gen_genitive_отурум",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«отурум» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "отурумдын",
+      "отурумдун",
+      "отурумдин",
+      "отурумдүн"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of отурум is отурумдун."
+  },
+  {
+    "item_id": "gen_dative_өмүр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өмүр» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өмүрга",
+      "өмүргө",
+      "өмүрго",
+      "өмүрге"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of өмүр is өмүргө."
+  },
+  {
+    "item_id": "gen_ablative_бүгүн",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бүгүн» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бүгүндөн",
+      "бүгүндан",
+      "бүгүндон",
+      "бүгүнден"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of бүгүн is бүгүндөн."
+  },
+  {
+    "item_id": "gen_plural_өлчөм",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«өлчөм» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "өлчөмдөр",
+      "өлчөмдар",
+      "өлчөмдор",
+      "өлчөмдер"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of өлчөм is өлчөмдөр."
+  },
+  {
+    "item_id": "gen_poss_2sg_тоо",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«тоо» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "тоолор",
+      "тооң",
+      "тоону",
+      "тоонун"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of тоо is тооң."
+  },
+  {
+    "item_id": "gen_ablative_укук",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«укук» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "укуктан",
+      "укуктон",
+      "укуктен",
+      "укуктөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of укук is укуктан."
+  },
+  {
+    "item_id": "gen_poss_3sg_милдет",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«милдет» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "милдеты",
+      "милдети",
+      "милдету",
+      "милдетү"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 3sg of милдет is милдети."
+  },
+  {
+    "item_id": "gen_dative_кытай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кытай» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кытайга",
+      "кытайго",
+      "кытайге",
+      "кытайгө"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of кытай is кытайга."
+  },
+  {
+    "item_id": "gen_plural_колдонмо",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«колдонмо» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "колдонмолор",
+      "колдонмолар",
+      "колдонмолер",
+      "колдонмолөр"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of колдонмо is колдонмолор."
+  },
+  {
+    "item_id": "gen_ablative_керек",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«керек» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "керектан",
+      "керектон",
+      "керектөн",
+      "керектен"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of керек is керектен."
+  },
+  {
+    "item_id": "gen_locative_акы",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«акы» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "акыда",
+      "акыдо",
+      "акыде",
+      "акыдө"
+    ],
+    "answer_index": 0,
+    "explanation": "The locative of акы is акыда."
+  },
+  {
+    "item_id": "gen_accusative_жүрөк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жүрөк» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жүрөктү",
+      "жүрөкты",
+      "жүрөкту",
+      "жүрөкти"
+    ],
+    "answer_index": 0,
+    "explanation": "The accusative of жүрөк is жүрөктү."
+  },
+  {
+    "item_id": "gen_poss_2sg_шайлоо",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«шайлоо» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "шайлоолор",
+      "шайлоону",
+      "шайлооң",
+      "шайлоонун"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of шайлоо is шайлооң."
+  },
+  {
+    "item_id": "gen_poss_2sg_май",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«май» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "маюң",
+      "майиң",
+      "майың",
+      "майүң"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of май is майың."
+  },
+  {
+    "item_id": "gen_poss_2sg_буудай",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«буудай» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "буудаюң",
+      "буудайың",
+      "буудайиң",
+      "буудайүң"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of буудай is буудайың."
+  },
+  {
+    "item_id": "gen_accusative_мөөнөт",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мөөнөт» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мөөнөтты",
+      "мөөнөтту",
+      "мөөнөтти",
+      "мөөнөттү"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of мөөнөт is мөөнөттү."
+  },
+  {
+    "item_id": "gen_poss_2sg_тургун",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«тургун» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "тургуның",
+      "тургунуң",
+      "тургуниң",
+      "тургунүң"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of тургун is тургунуң."
+  },
+  {
+    "item_id": "gen_locative_мечит",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мечит» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мечитте",
+      "мечитта",
+      "мечитто",
+      "мечиттө"
+    ],
+    "answer_index": 0,
+    "explanation": "The locative of мечит is мечитте."
+  },
+  {
+    "item_id": "gen_poss_1sg_кечирим",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«кечирим» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кечиримим",
+      "кечиримым",
+      "кечиримум",
+      "кечиримүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of кечирим is кечиримим."
+  },
+  {
+    "item_id": "gen_ablative_жаш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жаш» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жаштон",
+      "жаштен",
+      "жаштөн",
+      "жаштан"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of жаш is жаштан."
+  },
+  {
+    "item_id": "gen_genitive_кудай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кудай» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кудайдын",
+      "кудайдун",
+      "кудайдин",
+      "кудайдүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of кудай is кудайдын."
+  },
+  {
+    "item_id": "gen_ablative_таш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«таш» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "таштан",
+      "таштон",
+      "таштен",
+      "таштөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of таш is таштан."
+  },
+  {
+    "item_id": "gen_plural_тоскоол",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«тоскоол» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "тоскоолдор",
+      "тоскоолдар",
+      "тоскоолдер",
+      "тоскоолдөр"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of тоскоол is тоскоолдор."
+  },
+  {
+    "item_id": "gen_genitive_мелдеш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мелдеш» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мелдештын",
+      "мелдештун",
+      "мелдештүн",
+      "мелдештин"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of мелдеш is мелдештин."
+  },
+  {
+    "item_id": "gen_accusative_керектөө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«керектөө» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "керектөөны",
+      "керектөөну",
+      "керектөөни",
+      "керектөөнү"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of керектөө is керектөөнү."
+  },
+  {
+    "item_id": "gen_genitive_жамгыр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жамгыр» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жамгырдун",
+      "жамгырдин",
+      "жамгырдын",
+      "жамгырдүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of жамгыр is жамгырдын."
+  },
+  {
+    "item_id": "gen_ablative_күнөөкөр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«күнөөкөр» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "күнөөкөрдөн",
+      "күнөөкөрдан",
+      "күнөөкөрдон",
+      "күнөөкөрден"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of күнөөкөр is күнөөкөрдөн."
+  },
+  {
+    "item_id": "gen_poss_1sg_муз",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«муз» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "музум",
+      "музым",
+      "музим",
+      "музүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of муз is музум."
+  },
+  {
+    "item_id": "gen_plural_жүк",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«жүк» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "жүктар",
+      "жүктөр",
+      "жүктор",
+      "жүктер"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of жүк is жүктөр."
+  },
+  {
+    "item_id": "gen_genitive_салык",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«салык» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "салыктын",
+      "салыктун",
+      "салыктин",
+      "салыктүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of салык is салыктын."
+  },
+  {
+    "item_id": "gen_locative_туу",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«туу» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "туудо",
+      "тууде",
+      "тууда",
+      "туудө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of туу is тууда."
+  },
+  {
+    "item_id": "gen_dative_ата",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«ата» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "атаго",
+      "атага",
+      "атаге",
+      "атагө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of ата is атага."
+  },
+  {
+    "item_id": "gen_genitive_негиз",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«негиз» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "негиздын",
+      "негиздин",
+      "негиздун",
+      "негиздүн"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of негиз is негиздин."
+  },
+  {
+    "item_id": "gen_locative_сот",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«сот» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "сотта",
+      "сотто",
+      "сотте",
+      "соттө"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of сот is сотто."
+  },
+  {
+    "item_id": "gen_locative_көргөзмө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«көргөзмө» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "көргөзмөда",
+      "көргөзмөдө",
+      "көргөзмөдо",
+      "көргөзмөде"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of көргөзмө is көргөзмөдө."
+  },
+  {
+    "item_id": "gen_genitive_эгин",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«эгин» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "эгиндын",
+      "эгиндун",
+      "эгиндүн",
+      "эгиндин"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of эгин is эгиндин."
+  },
+  {
+    "item_id": "gen_genitive_күрүч",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«күрүч» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "күрүчтүн",
+      "күрүчтын",
+      "күрүчтун",
+      "күрүчтин"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of күрүч is күрүчтүн."
+  },
+  {
+    "item_id": "gen_plural_кеңсе",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«кеңсе» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "кеңселар",
+      "кеңселер",
+      "кеңселор",
+      "кеңселөр"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of кеңсе is кеңселер."
+  },
+  {
+    "item_id": "gen_genitive_акча",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«акча» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "акчанун",
+      "акчанин",
+      "акчанүн",
+      "акчанын"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of акча is акчанын."
+  },
+  {
+    "item_id": "gen_genitive_эже",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«эже» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "эженын",
+      "эженун",
+      "эженүн",
+      "эженин"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of эже is эженин."
+  },
+  {
+    "item_id": "gen_poss_2sg_мезгил",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«мезгил» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "мезгилың",
+      "мезгилиң",
+      "мезгилуң",
+      "мезгилүң"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of мезгил is мезгилиң."
+  },
+  {
+    "item_id": "gen_poss_1sg_жумуртка",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жумуртка» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жумурткалар",
+      "жумуртканы",
+      "жумуртканын",
+      "жумурткам"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of жумуртка is жумурткам."
+  },
+  {
+    "item_id": "gen_dative_ишеним",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«ишеним» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "ишенимга",
+      "ишенимго",
+      "ишенимге",
+      "ишенимгө"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of ишеним is ишенимге."
+  },
+  {
+    "item_id": "gen_poss_2sg_тилке",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«тилке» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "тилкелер",
+      "тилкени",
+      "тилкең",
+      "тилкенин"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of тилке is тилкең."
+  },
+  {
+    "item_id": "gen_accusative_эже",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«эже» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "эжены",
+      "эжени",
+      "эжену",
+      "эженү"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of эже is эжени."
+  },
+  {
+    "item_id": "gen_ablative_жоктук",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жоктук» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жоктуктон",
+      "жоктуктен",
+      "жоктуктан",
+      "жоктуктөн"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of жоктук is жоктуктан."
+  },
+  {
+    "item_id": "gen_genitive_сан",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«сан» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "сандын",
+      "сандун",
+      "сандин",
+      "сандүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of сан is сандын."
+  },
+  {
+    "item_id": "gen_poss_3sg_эсеп",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«эсеп» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "эсеби",
+      "эсебы",
+      "эсебу",
+      "эсебү"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of эсеп is эсеби."
+  },
+  {
+    "item_id": "gen_accusative_жыл",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жыл» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жылду",
+      "жылди",
+      "жылды",
+      "жылдү"
+    ],
+    "answer_index": 2,
+    "explanation": "The accusative of жыл is жылды."
+  },
+  {
+    "item_id": "gen_plural_чебер",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«чебер» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "чеберлар",
+      "чеберлор",
+      "чеберлөр",
+      "чеберлер"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of чебер is чеберлер."
+  },
+  {
+    "item_id": "gen_genitive_суу",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«суу» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "суунун",
+      "суунын",
+      "суунин",
+      "суунүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of суу is суунун."
+  },
+  {
+    "item_id": "gen_poss_3sg_жай",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жай» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жайы",
+      "жаю",
+      "жайи",
+      "жайү"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of жай is жайы."
+  },
+  {
+    "item_id": "gen_poss_1sg_кыз",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«кыз» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кызум",
+      "кызим",
+      "кызүм",
+      "кызым"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of кыз is кызым."
+  },
+  {
+    "item_id": "gen_poss_2sg_моюн",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«моюн» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "моюнуң",
+      "моюның",
+      "моюниң",
+      "моюнүң"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 2sg of моюн is моюнуң."
+  },
+  {
+    "item_id": "gen_poss_2sg_түшүм",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«түшүм» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "түшүмың",
+      "түшүмуң",
+      "түшүмиң",
+      "түшүмүң"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of түшүм is түшүмүң."
+  },
+  {
+    "item_id": "gen_accusative_колдонмо",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«колдонмо» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "колдонмоны",
+      "колдонмони",
+      "колдонмонү",
+      "колдонмону"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of колдонмо is колдонмону."
+  },
+  {
+    "item_id": "gen_plural_май",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«май» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "майлор",
+      "майлер",
+      "майлөр",
+      "майлар"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of май is майлар."
+  },
+  {
+    "item_id": "gen_dative_кечирим",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кечирим» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кечиримге",
+      "кечиримга",
+      "кечиримго",
+      "кечиримгө"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of кечирим is кечиримге."
+  },
+  {
+    "item_id": "gen_dative_кар",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кар» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "карго",
+      "карге",
+      "карга",
+      "каргө"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of кар is карга."
+  },
+  {
+    "item_id": "gen_genitive_кеңешме",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кеңешме» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кеңешменын",
+      "кеңешменун",
+      "кеңешменүн",
+      "кеңешменин"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of кеңешме is кеңешменин."
+  },
+  {
+    "item_id": "gen_poss_2sg_кызмат",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«кызмат» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кызматуң",
+      "кызматиң",
+      "кызматың",
+      "кызматүң"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of кызмат is кызматың."
+  },
+  {
+    "item_id": "gen_locative_жооп",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жооп» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жоопта",
+      "жоопте",
+      "жоопто",
+      "жооптө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of жооп is жоопто."
+  },
+  {
+    "item_id": "gen_dative_чебер",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«чебер» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "чеберга",
+      "чеберге",
+      "чеберго",
+      "чебергө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of чебер is чеберге."
+  },
+  {
+    "item_id": "gen_poss_1sg_оюн",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«оюн» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "оюнум",
+      "оюным",
+      "оюним",
+      "оюнүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of оюн is оюнум."
+  },
+  {
+    "item_id": "gen_accusative_туу",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«туу» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тууны",
+      "тууну",
+      "тууни",
+      "туунү"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of туу is тууну."
+  },
+  {
+    "item_id": "gen_accusative_кол",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кол» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "колды",
+      "колди",
+      "колду",
+      "колдү"
+    ],
+    "answer_index": 2,
+    "explanation": "The accusative of кол is колду."
+  },
+  {
+    "item_id": "gen_locative_бет",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бет» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бетта",
+      "бетто",
+      "бетте",
+      "беттө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of бет is бетте."
+  },
+  {
+    "item_id": "gen_ablative_себеп",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«себеп» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "себептен",
+      "себептан",
+      "себептон",
+      "себептөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of себеп is себептен."
+  },
+  {
+    "item_id": "gen_genitive_тоскоол",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тоскоол» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тоскоолдын",
+      "тоскоолдун",
+      "тоскоолдин",
+      "тоскоолдүн"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of тоскоол is тоскоолдун."
+  },
+  {
+    "item_id": "gen_dative_дүкөн",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«дүкөн» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "дүкөнгө",
+      "дүкөнга",
+      "дүкөнго",
+      "дүкөнге"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of дүкөн is дүкөнгө."
+  },
+  {
+    "item_id": "gen_poss_3sg_тыюу",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«тыюу» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "тыюусу",
+      "тыюусы",
+      "тыюуси",
+      "тыюусү"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of тыюу is тыюусу."
+  },
+  {
+    "item_id": "gen_ablative_тумшук",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тумшук» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тумшуктон",
+      "тумшуктан",
+      "тумшуктен",
+      "тумшуктөн"
+    ],
+    "answer_index": 1,
+    "explanation": "The ablative of тумшук is тумшуктан."
+  },
+  {
+    "item_id": "gen_plural_калк",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«калк» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "калктор",
+      "калктер",
+      "калктөр",
+      "калктар"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of калк is калктар."
+  },
+  {
+    "item_id": "gen_accusative_өлүм",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өлүм» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өлүмды",
+      "өлүмду",
+      "өлүмди",
+      "өлүмдү"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of өлүм is өлүмдү."
+  },
+  {
+    "item_id": "gen_ablative_мезгил",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мезгил» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мезгилдан",
+      "мезгилдон",
+      "мезгилдөн",
+      "мезгилден"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of мезгил is мезгилден."
+  },
+  {
+    "item_id": "gen_locative_өкүл",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өкүл» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өкүлда",
+      "өкүлдо",
+      "өкүлде",
+      "өкүлдө"
+    ],
+    "answer_index": 3,
+    "explanation": "The locative of өкүл is өкүлдө."
+  },
+  {
+    "item_id": "gen_accusative_көпүрө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«көпүрө» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "көпүрөны",
+      "көпүрөну",
+      "көпүрөни",
+      "көпүрөнү"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of көпүрө is көпүрөнү."
+  },
+  {
+    "item_id": "gen_plural_пайда",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«пайда» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "пайдалар",
+      "пайдалор",
+      "пайдалер",
+      "пайдалөр"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of пайда is пайдалар."
+  },
+  {
+    "item_id": "gen_plural_көзөмөл",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«көзөмөл» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "көзөмөлдар",
+      "көзөмөлдөр",
+      "көзөмөлдор",
+      "көзөмөлдер"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of көзөмөл is көзөмөлдөр."
+  },
+  {
+    "item_id": "gen_poss_1sg_үйүр",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«үйүр» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "үйүрым",
+      "үйүрум",
+      "үйүрүм",
+      "үйүрим"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 1sg of үйүр is үйүрүм."
+  },
+  {
+    "item_id": "gen_poss_1sg_пикир",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«пикир» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "пикирим",
+      "пикирым",
+      "пикирум",
+      "пикирүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of пикир is пикирим."
+  },
+  {
+    "item_id": "gen_poss_1sg_эсеп",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«эсеп» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "эсебым",
+      "эсебум",
+      "эсебим",
+      "эсебүм"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 1sg of эсеп is эсебим."
+  },
+  {
+    "item_id": "gen_genitive_бийлик",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бийлик» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бийликтин",
+      "бийликтын",
+      "бийликтун",
+      "бийликтүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of бийлик is бийликтин."
+  },
+  {
+    "item_id": "gen_poss_1sg_ийгилик",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«ийгилик» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "ийгилигим",
+      "ийгилигым",
+      "ийгилигум",
+      "ийгилигүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of ийгилик is ийгилигим."
+  },
+  {
+    "item_id": "gen_poss_3sg_бөлүм",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«бөлүм» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "бөлүмы",
+      "бөлүмү",
+      "бөлүму",
+      "бөлүми"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 3sg of бөлүм is бөлүмү."
+  },
+  {
+    "item_id": "gen_plural_теңир",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«теңир» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "теңирлер",
+      "теңирлар",
+      "теңирлор",
+      "теңирлөр"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of теңир is теңирлер."
+  },
+  {
+    "item_id": "gen_genitive_чакырым",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«чакырым» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "чакырымдун",
+      "чакырымдин",
+      "чакырымдүн",
+      "чакырымдын"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of чакырым is чакырымдын."
+  },
+  {
+    "item_id": "gen_poss_3sg_шайлоочу",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«шайлоочу» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "шайлоочусы",
+      "шайлоочуси",
+      "шайлоочусу",
+      "шайлоочусү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of шайлоочу is шайлоочусу."
+  },
+  {
+    "item_id": "gen_plural_отун",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«отун» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "отундор",
+      "отундар",
+      "отундер",
+      "отундөр"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of отун is отундар."
+  },
+  {
+    "item_id": "gen_genitive_көйгөй",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«көйгөй» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "көйгөйдын",
+      "көйгөйдун",
+      "көйгөйдүн",
+      "көйгөйдин"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of көйгөй is көйгөйдүн."
+  },
+  {
+    "item_id": "gen_poss_1sg_акча",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«акча» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "акчам",
+      "акчалар",
+      "акчаны",
+      "акчанын"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of акча is акчам."
+  },
+  {
+    "item_id": "gen_accusative_кызык",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кызык» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кызыкты",
+      "кызыкту",
+      "кызыкти",
+      "кызыктү"
+    ],
+    "answer_index": 0,
+    "explanation": "The accusative of кызык is кызыкты."
+  },
+  {
+    "item_id": "gen_poss_1sg_жаш",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жаш» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жашым",
+      "жашум",
+      "жашим",
+      "жашүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of жаш is жашым."
+  },
+  {
+    "item_id": "gen_poss_2sg_куту",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«куту» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кутулар",
+      "кутуну",
+      "кутунун",
+      "кутуң"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of куту is кутуң."
+  },
+  {
+    "item_id": "gen_plural_согуш",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«согуш» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "согуштар",
+      "согуштор",
+      "согуштер",
+      "согуштөр"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of согуш is согуштар."
+  },
+  {
+    "item_id": "gen_dative_абал",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«абал» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "абалго",
+      "абалге",
+      "абалга",
+      "абалгө"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of абал is абалга."
+  },
+  {
+    "item_id": "gen_dative_тургун",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тургун» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тургунга",
+      "тургунго",
+      "тургунге",
+      "тургунгө"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of тургун is тургунга."
+  },
+  {
+    "item_id": "gen_poss_3sg_жеңүүчү",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жеңүүчү» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жеңүүчүсү",
+      "жеңүүчүсы",
+      "жеңүүчүсу",
+      "жеңүүчүси"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of жеңүүчү is жеңүүчүсү."
+  },
+  {
+    "item_id": "gen_poss_3sg_кире",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«кире» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "киресы",
+      "киресу",
+      "киресү",
+      "киреси"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of кире is киреси."
+  },
+  {
+    "item_id": "gen_accusative_күйөө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«күйөө» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "күйөөны",
+      "күйөөну",
+      "күйөөни",
+      "күйөөнү"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of күйөө is күйөөнү."
+  },
+  {
+    "item_id": "gen_genitive_керектөө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«керектөө» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "керектөөнын",
+      "керектөөнүн",
+      "керектөөнун",
+      "керектөөнин"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of керектөө is керектөөнүн."
+  },
+  {
+    "item_id": "gen_dative_куту",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«куту» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кутуго",
+      "кутуге",
+      "кутуга",
+      "кутугө"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of куту is кутуга."
+  },
+  {
+    "item_id": "gen_dative_кызык",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кызык» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кызыкко",
+      "кызыкке",
+      "кызыккө",
+      "кызыкка"
+    ],
+    "answer_index": 3,
+    "explanation": "The dative of кызык is кызыкка."
+  },
+  {
+    "item_id": "gen_ablative_баатыр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«баатыр» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "баатырдон",
+      "баатырдан",
+      "баатырден",
+      "баатырдөн"
+    ],
+    "answer_index": 1,
+    "explanation": "The ablative of баатыр is баатырдан."
+  },
+  {
+    "item_id": "gen_ablative_дин",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«дин» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "диндан",
+      "диндон",
+      "диндөн",
+      "динден"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of дин is динден."
+  },
+  {
+    "item_id": "gen_poss_2sg_түп",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«түп» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "түбың",
+      "түбуң",
+      "түбүң",
+      "түбиң"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of түп is түбүң."
+  },
+  {
+    "item_id": "gen_poss_3sg_буу",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«буу» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "буусы",
+      "бууси",
+      "буусү",
+      "буусу"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of буу is буусу."
+  },
+  {
+    "item_id": "gen_poss_1sg_коон",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«коон» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кооным",
+      "кооним",
+      "коонум",
+      "коонүм"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 1sg of коон is коонум."
+  },
+  {
+    "item_id": "gen_poss_3sg_буудай",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«буудай» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "буудаю",
+      "буудайи",
+      "буудайы",
+      "буудайү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of буудай is буудайы."
+  },
+  {
+    "item_id": "gen_dative_тейлөө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тейлөө» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тейлөөга",
+      "тейлөөго",
+      "тейлөөге",
+      "тейлөөгө"
+    ],
+    "answer_index": 3,
+    "explanation": "The dative of тейлөө is тейлөөгө."
+  },
+  {
+    "item_id": "gen_genitive_мир",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мир» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мирдын",
+      "мирдин",
+      "мирдун",
+      "мирдүн"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of мир is мирдин."
+  },
+  {
+    "item_id": "gen_dative_дем",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«дем» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "демге",
+      "демга",
+      "демго",
+      "демгө"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of дем is демге."
+  },
+  {
+    "item_id": "gen_locative_жоктук",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жоктук» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жоктукто",
+      "жоктукта",
+      "жоктукте",
+      "жоктуктө"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of жоктук is жоктукта."
+  },
+  {
+    "item_id": "gen_poss_2sg_айыл",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«айыл» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "айылуң",
+      "айылиң",
+      "айылүң",
+      "айылың"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of айыл is айылың."
+  },
+  {
+    "item_id": "gen_poss_3sg_керектөө",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«керектөө» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "керектөөсү",
+      "керектөөсы",
+      "керектөөсу",
+      "керектөөси"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of керектөө is керектөөсү."
+  },
+  {
+    "item_id": "gen_ablative_курултай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«курултай» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "курултайдан",
+      "курултайдон",
+      "курултайден",
+      "курултайдөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of курултай is курултайдан."
+  },
+  {
+    "item_id": "gen_locative_мелдеш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мелдеш» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "мелдешта",
+      "мелдешто",
+      "мелдеште",
+      "мелдештө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of мелдеш is мелдеште."
+  },
+  {
+    "item_id": "gen_dative_кооп",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кооп» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "коопко",
+      "коопка",
+      "коопке",
+      "коопкө"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of кооп is коопко."
+  },
+  {
+    "item_id": "gen_poss_3sg_эмир",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«эмир» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "эмири",
+      "эмиры",
+      "эмиру",
+      "эмирү"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of эмир is эмири."
+  },
+  {
+    "item_id": "gen_ablative_өкүл",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өкүл» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өкүлдөн",
+      "өкүлдан",
+      "өкүлдон",
+      "өкүлден"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of өкүл is өкүлдөн."
+  },
+  {
+    "item_id": "gen_locative_улут",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«улут» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "улутто",
+      "улутта",
+      "улутте",
+      "улуттө"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of улут is улутта."
+  },
+  {
+    "item_id": "gen_ablative_бөлүк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бөлүк» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бөлүктан",
+      "бөлүктон",
+      "бөлүктөн",
+      "бөлүктен"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of бөлүк is бөлүктөн."
+  },
+  {
+    "item_id": "gen_plural_мүйүз",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«мүйүз» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "мүйүздар",
+      "мүйүздор",
+      "мүйүздер",
+      "мүйүздөр"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of мүйүз is мүйүздөр."
+  },
+  {
+    "item_id": "gen_dative_ыктыяр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«ыктыяр» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "ыктыярго",
+      "ыктыярга",
+      "ыктыярге",
+      "ыктыяргө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of ыктыяр is ыктыярга."
+  },
+  {
+    "item_id": "gen_genitive_үйүр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«үйүр» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "үйүрдын",
+      "үйүрдүн",
+      "үйүрдун",
+      "үйүрдин"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of үйүр is үйүрдүн."
+  },
+  {
+    "item_id": "gen_locative_мал",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мал» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "малдо",
+      "малде",
+      "малдө",
+      "малда"
+    ],
+    "answer_index": 3,
+    "explanation": "The locative of мал is малда."
+  },
+  {
+    "item_id": "gen_ablative_мал",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«мал» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "малдан",
+      "малдон",
+      "малден",
+      "малдөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of мал is малдан."
+  },
+  {
+    "item_id": "gen_ablative_тукум",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тукум» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тукумдон",
+      "тукумден",
+      "тукумдөн",
+      "тукумдан"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of тукум is тукумдан."
+  },
+  {
+    "item_id": "gen_ablative_салык",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«салык» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "салыктан",
+      "салыктон",
+      "салыктен",
+      "салыктөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of салык is салыктан."
+  },
+  {
+    "item_id": "gen_ablative_добуш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«добуш» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "добуштан",
+      "добуштон",
+      "добуштен",
+      "добуштөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of добуш is добуштан."
+  },
+  {
+    "item_id": "gen_dative_бай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бай» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "байго",
+      "байге",
+      "байга",
+      "байгө"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of бай is байга."
+  },
+  {
+    "item_id": "gen_plural_аял",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«аял» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "аялдор",
+      "аялдар",
+      "аялдер",
+      "аялдөр"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of аял is аялдар."
+  },
+  {
+    "item_id": "gen_dative_той",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«той» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тойга",
+      "тойго",
+      "тойге",
+      "тойгө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of той is тойго."
+  },
+  {
+    "item_id": "gen_locative_долбоор",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«долбоор» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "долбоорда",
+      "долбоорде",
+      "долбоордө",
+      "долбоордо"
+    ],
+    "answer_index": 3,
+    "explanation": "The locative of долбоор is долбоордо."
+  },
+  {
+    "item_id": "gen_genitive_кабар",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кабар» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кабардун",
+      "кабардин",
+      "кабардын",
+      "кабардүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of кабар is кабардын."
+  },
+  {
+    "item_id": "gen_plural_апа",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«апа» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "апалор",
+      "апалер",
+      "апалөр",
+      "апалар"
+    ],
+    "answer_index": 3,
+    "explanation": "The plural of апа is апалар."
+  },
+  {
+    "item_id": "gen_poss_3sg_куурай",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«куурай» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "куурайы",
+      "куураю",
+      "куурайи",
+      "куурайү"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of куурай is куурайы."
+  },
+  {
+    "item_id": "gen_ablative_насыя",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«насыя» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "насыядон",
+      "насыяден",
+      "насыядан",
+      "насыядөн"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of насыя is насыядан."
+  },
+  {
+    "item_id": "gen_poss_3sg_соода",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«соода» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "соодасу",
+      "соодаси",
+      "соодасы",
+      "соодасү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of соода is соодасы."
+  },
+  {
+    "item_id": "gen_poss_2sg_дос",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«дос» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "досуң",
+      "досың",
+      "досиң",
+      "досүң"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 2sg of дос is досуң."
+  },
+  {
+    "item_id": "gen_poss_2sg_текче",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«текче» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "текчелер",
+      "текчени",
+      "текченин",
+      "текчең"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of текче is текчең."
+  },
+  {
+    "item_id": "gen_genitive_чет",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«чет» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "четтын",
+      "четтун",
+      "четтин",
+      "четтүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of чет is четтин."
+  },
+  {
+    "item_id": "gen_poss_3sg_кудай",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«кудай» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кудаю",
+      "кудайи",
+      "кудайү",
+      "кудайы"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of кудай is кудайы."
+  },
+  {
+    "item_id": "gen_poss_1sg_медресе",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«медресе» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "медресем",
+      "медреселер",
+      "медресени",
+      "медресенин"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of медресе is медресем."
+  },
+  {
+    "item_id": "gen_dative_бой",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бой» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бойга",
+      "бойге",
+      "бойгө",
+      "бойго"
+    ],
+    "answer_index": 3,
+    "explanation": "The dative of бой is бойго."
+  },
+  {
+    "item_id": "gen_plural_дүң",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«дүң» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "дүңдар",
+      "дүңдөр",
+      "дүңдор",
+      "дүңдер"
+    ],
+    "answer_index": 1,
+    "explanation": "The plural of дүң is дүңдөр."
+  },
+  {
+    "item_id": "gen_poss_1sg_жубай",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жубай» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жубаюм",
+      "жубайым",
+      "жубайим",
+      "жубайүм"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 1sg of жубай is жубайым."
+  },
+  {
+    "item_id": "gen_accusative_кар",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кар» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "карду",
+      "карди",
+      "кардү",
+      "карды"
+    ],
+    "answer_index": 3,
+    "explanation": "The accusative of кар is карды."
+  },
+  {
+    "item_id": "gen_genitive_отун",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«отун» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "отундын",
+      "отундин",
+      "отундун",
+      "отундүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of отун is отундун."
+  },
+  {
+    "item_id": "gen_accusative_кудай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кудай» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кудайду",
+      "кудайди",
+      "кудайды",
+      "кудайдү"
+    ],
+    "answer_index": 2,
+    "explanation": "The accusative of кудай is кудайды."
+  },
+  {
+    "item_id": "gen_genitive_ишеним",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«ишеним» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "ишенимдын",
+      "ишенимдин",
+      "ишенимдун",
+      "ишенимдүн"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of ишеним is ишенимдин."
+  },
+  {
+    "item_id": "gen_plural_шайлоочу",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«шайлоочу» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "шайлоочулор",
+      "шайлоочулер",
+      "шайлоочулар",
+      "шайлоочулөр"
+    ],
+    "answer_index": 2,
+    "explanation": "The plural of шайлоочу is шайлоочулар."
+  },
+  {
+    "item_id": "gen_ablative_былтыр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«былтыр» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "былтырдон",
+      "былтырден",
+      "былтырдөн",
+      "былтырдан"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of былтыр is былтырдан."
+  },
+  {
+    "item_id": "gen_poss_2sg_катчы",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«катчы» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "катчылар",
+      "катчыны",
+      "катчың",
+      "катчынын"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of катчы is катчың."
+  },
+  {
+    "item_id": "gen_poss_3sg_добуш",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«добуш» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "добушы",
+      "добуши",
+      "добушү",
+      "добушу"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of добуш is добушу."
+  },
+  {
+    "item_id": "gen_poss_2sg_дем",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«дем» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "демың",
+      "демиң",
+      "демуң",
+      "демүң"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of дем is демиң."
+  },
+  {
+    "item_id": "gen_poss_2sg_коркунуч",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«коркунуч» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "коркунучың",
+      "коркунучиң",
+      "коркунучуң",
+      "коркунучүң"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of коркунуч is коркунучуң."
+  },
+  {
+    "item_id": "gen_poss_3sg_илим",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«илим» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "илимы",
+      "илиму",
+      "илими",
+      "илимү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of илим is илими."
+  },
+  {
+    "item_id": "gen_poss_2sg_ата",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«ата» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "аталар",
+      "атаны",
+      "атаң",
+      "атанын"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of ата is атаң."
+  },
+  {
+    "item_id": "gen_poss_1sg_ини",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«ини» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "инилер",
+      "иним",
+      "инини",
+      "ининин"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 1sg of ини is иним."
+  },
+  {
+    "item_id": "gen_ablative_ишкер",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«ишкер» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "ишкердан",
+      "ишкердон",
+      "ишкерден",
+      "ишкердөн"
+    ],
+    "answer_index": 2,
+    "explanation": "The ablative of ишкер is ишкерден."
+  },
+  {
+    "item_id": "gen_poss_3sg_бөлмө",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«бөлмө» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "бөлмөсү",
+      "бөлмөсы",
+      "бөлмөсу",
+      "бөлмөси"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of бөлмө is бөлмөсү."
+  },
+  {
+    "item_id": "gen_ablative_боор",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«боор» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "боордан",
+      "боорден",
+      "боордөн",
+      "боордон"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of боор is боордон."
+  },
+  {
+    "item_id": "gen_poss_2sg_сөөк",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«сөөк» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "сөөгүң",
+      "сөөгың",
+      "сөөгуң",
+      "сөөгиң"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 2sg of сөөк is сөөгүң."
+  },
+  {
+    "item_id": "gen_locative_үйүр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«үйүр» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "үйүрдө",
+      "үйүрда",
+      "үйүрдо",
+      "үйүрде"
+    ],
+    "answer_index": 0,
+    "explanation": "The locative of үйүр is үйүрдө."
+  },
+  {
+    "item_id": "gen_genitive_тутум",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тутум» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тутумдын",
+      "тутумдин",
+      "тутумдун",
+      "тутумдүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of тутум is тутумдун."
+  },
+  {
+    "item_id": "gen_genitive_өрүк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өрүк» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өрүктүн",
+      "өрүктын",
+      "өрүктун",
+      "өрүктин"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of өрүк is өрүктүн."
+  },
+  {
+    "item_id": "gen_ablative_текче",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«текче» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "текчедан",
+      "текчеден",
+      "текчедон",
+      "текчедөн"
+    ],
+    "answer_index": 1,
+    "explanation": "The ablative of текче is текчеден."
+  },
+  {
+    "item_id": "gen_locative_бүгүн",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бүгүн» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бүгүнда",
+      "бүгүндо",
+      "бүгүнде",
+      "бүгүндө"
+    ],
+    "answer_index": 3,
+    "explanation": "The locative of бүгүн is бүгүндө."
+  },
+  {
+    "item_id": "gen_poss_2sg_мүчө",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«мүчө» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "мүчөлөр",
+      "мүчөнү",
+      "мүчөң",
+      "мүчөнүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of мүчө is мүчөң."
+  },
+  {
+    "item_id": "gen_genitive_билим",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«билим» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "билимдын",
+      "билимдин",
+      "билимдун",
+      "билимдүн"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of билим is билимдин."
+  },
+  {
+    "item_id": "gen_poss_1sg_жума",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жума» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жумам",
+      "жумалар",
+      "жуманы",
+      "жуманын"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of жума is жумам."
+  },
+  {
+    "item_id": "gen_plural_кайык",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«кайык» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "кайыктор",
+      "кайыктер",
+      "кайыктар",
+      "кайыктөр"
+    ],
+    "answer_index": 2,
+    "explanation": "The plural of кайык is кайыктар."
+  },
+  {
+    "item_id": "gen_poss_2sg_бороон",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«бороон» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "борооның",
+      "бороониң",
+      "бороонүң",
+      "бороонуң"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of бороон is бороонуң."
+  },
+  {
+    "item_id": "gen_poss_2sg_киреше",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«киреше» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кирешелер",
+      "кирешени",
+      "кирешенин",
+      "кирешең"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of киреше is кирешең."
+  },
+  {
+    "item_id": "gen_poss_1sg_эсе",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«эсе» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "эсем",
+      "эселер",
+      "эсени",
+      "эсенин"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of эсе is эсем."
+  },
+  {
+    "item_id": "gen_plural_борбор",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«борбор» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "борборлор",
+      "борборлар",
+      "борборлер",
+      "борборлөр"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of борбор is борборлор."
+  },
+  {
+    "item_id": "gen_plural_мөөнөт",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«мөөнөт» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "мөөнөттөр",
+      "мөөнөттар",
+      "мөөнөттор",
+      "мөөнөттер"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of мөөнөт is мөөнөттөр."
+  },
+  {
+    "item_id": "gen_genitive_айыл",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«айыл» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "айылдун",
+      "айылдын",
+      "айылдин",
+      "айылдүн"
+    ],
+    "answer_index": 1,
+    "explanation": "The genitive of айыл is айылдын."
+  },
+  {
+    "item_id": "gen_accusative_жүргүнчү",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жүргүнчү» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жүргүнчүны",
+      "жүргүнчүнү",
+      "жүргүнчүну",
+      "жүргүнчүни"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of жүргүнчү is жүргүнчүнү."
+  },
+  {
+    "item_id": "gen_accusative_сөз",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«сөз» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "сөздү",
+      "сөзды",
+      "сөзду",
+      "сөзди"
+    ],
+    "answer_index": 0,
+    "explanation": "The accusative of сөз is сөздү."
+  },
+  {
+    "item_id": "gen_ablative_талап",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«талап» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "талаптон",
+      "талаптен",
+      "талаптөн",
+      "талаптан"
+    ],
+    "answer_index": 3,
+    "explanation": "The ablative of талап is талаптан."
+  },
+  {
+    "item_id": "gen_ablative_баш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«баш» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "баштон",
+      "баштан",
+      "баштен",
+      "баштөн"
+    ],
+    "answer_index": 1,
+    "explanation": "The ablative of баш is баштан."
+  },
+  {
+    "item_id": "gen_poss_2sg_үлгү",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«үлгү» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "үлгүң",
+      "үлгүлөр",
+      "үлгүнү",
+      "үлгүнүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 2sg of үлгү is үлгүң."
+  },
+  {
+    "item_id": "gen_dative_өлкө",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өлкө» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өлкөга",
+      "өлкөго",
+      "өлкөгө",
+      "өлкөге"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of өлкө is өлкөгө."
+  },
+  {
+    "item_id": "gen_ablative_колдонмо",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«колдонмо» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "колдонмодан",
+      "колдонмодон",
+      "колдонмоден",
+      "колдонмодөн"
+    ],
+    "answer_index": 1,
+    "explanation": "The ablative of колдонмо is колдонмодон."
+  },
+  {
+    "item_id": "gen_poss_3sg_базар",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«базар» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "базары",
+      "базару",
+      "базари",
+      "базарү"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 3sg of базар is базары."
+  },
+  {
+    "item_id": "gen_ablative_суу",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«суу» сөзүнүн чыгыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "суудан",
+      "суудон",
+      "сууден",
+      "суудөн"
+    ],
+    "answer_index": 0,
+    "explanation": "The ablative of суу is суудан."
+  },
+  {
+    "item_id": "gen_poss_1sg_чет",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«чет» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "четым",
+      "четум",
+      "четүм",
+      "четим"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of чет is четим."
+  },
+  {
+    "item_id": "gen_genitive_шайлоо",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«шайлоо» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "шайлоонун",
+      "шайлоонын",
+      "шайлоонин",
+      "шайлоонүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of шайлоо is шайлоонун."
+  },
+  {
+    "item_id": "gen_dative_келечек",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«келечек» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "келечекка",
+      "келечекке",
+      "келечекко",
+      "келечеккө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of келечек is келечекке."
+  },
+  {
+    "item_id": "gen_plural_керектөө",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«керектөө» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "керектөөлөр",
+      "керектөөлар",
+      "керектөөлор",
+      "керектөөлер"
+    ],
+    "answer_index": 0,
+    "explanation": "The plural of керектөө is керектөөлөр."
+  },
+  {
+    "item_id": "gen_genitive_кызык",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кызык» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кызыктун",
+      "кызыктин",
+      "кызыктын",
+      "кызыктүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of кызык is кызыктын."
+  },
+  {
+    "item_id": "gen_genitive_тоо",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тоо» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тоонын",
+      "тоонин",
+      "тоонүн",
+      "тоонун"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of тоо is тоонун."
+  },
+  {
+    "item_id": "gen_poss_2sg_күнөөкөр",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«күнөөкөр» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "күнөөкөрың",
+      "күнөөкөруң",
+      "күнөөкөрүң",
+      "күнөөкөриң"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 2sg of күнөөкөр is күнөөкөрүң."
+  },
+  {
+    "item_id": "gen_locative_тутум",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«тутум» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "тутумдо",
+      "тутумда",
+      "тутумде",
+      "тутумдө"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of тутум is тутумда."
+  },
+  {
+    "item_id": "gen_poss_1sg_мекеме",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«мекеме» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "мекемелер",
+      "мекемени",
+      "мекеменин",
+      "мекемем"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of мекеме is мекемем."
+  },
+  {
+    "item_id": "gen_genitive_калк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«калк» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "калктын",
+      "калктун",
+      "калктин",
+      "калктүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of калк is калктын."
+  },
+  {
+    "item_id": "gen_genitive_кире",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«кире» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "киренин",
+      "киренын",
+      "киренун",
+      "киренүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of кире is киренин."
+  },
+  {
+    "item_id": "gen_poss_1sg_мөмө",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«мөмө» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "мөмөлөр",
+      "мөмөнү",
+      "мөмөнүн",
+      "мөмөм"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of мөмө is мөмөм."
+  },
+  {
+    "item_id": "gen_poss_1sg_күйөө",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«күйөө» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "күйөөлөр",
+      "күйөөнү",
+      "күйөөм",
+      "күйөөнүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 1sg of күйөө is күйөөм."
+  },
+  {
+    "item_id": "gen_accusative_эреже",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«эреже» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "эрежены",
+      "эрежену",
+      "эрежени",
+      "эреженү"
+    ],
+    "answer_index": 2,
+    "explanation": "The accusative of эреже is эрежени."
+  },
+  {
+    "item_id": "gen_accusative_өнөр",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өнөр» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өнөрдү",
+      "өнөрды",
+      "өнөрду",
+      "өнөрди"
+    ],
+    "answer_index": 0,
+    "explanation": "The accusative of өнөр is өнөрдү."
+  },
+  {
+    "item_id": "gen_poss_3sg_мелдеш",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«мелдеш» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "мелдешы",
+      "мелдешу",
+      "мелдеши",
+      "мелдешү"
+    ],
+    "answer_index": 2,
+    "explanation": "The poss 3sg of мелдеш is мелдеши."
+  },
+  {
+    "item_id": "gen_accusative_сүт",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«сүт» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "сүттү",
+      "сүтты",
+      "сүтту",
+      "сүтти"
+    ],
+    "answer_index": 0,
+    "explanation": "The accusative of сүт is сүттү."
+  },
+  {
+    "item_id": "gen_genitive_себеп",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«себеп» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "себептин",
+      "себептын",
+      "себептун",
+      "себептүн"
+    ],
+    "answer_index": 0,
+    "explanation": "The genitive of себеп is себептин."
+  },
+  {
+    "item_id": "gen_poss_3sg_кол",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«кол» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "колы",
+      "коли",
+      "колү",
+      "колу"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of кол is колу."
+  },
+  {
+    "item_id": "gen_dative_киши",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«киши» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "кишига",
+      "кишиго",
+      "кишигө",
+      "кишиге"
+    ],
+    "answer_index": 3,
+    "explanation": "The dative of киши is кишиге."
+  },
+  {
+    "item_id": "gen_genitive_күмүш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«күмүш» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "күмүштын",
+      "күмүштун",
+      "күмүштин",
+      "күмүштүн"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of күмүш is күмүштүн."
+  },
+  {
+    "item_id": "gen_dative_бет",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«бет» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "бетке",
+      "бетка",
+      "бетко",
+      "беткө"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of бет is бетке."
+  },
+  {
+    "item_id": "gen_dative_калк",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«калк» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "калкко",
+      "калкка",
+      "калкке",
+      "калккө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of калк is калкка."
+  },
+  {
+    "item_id": "gen_locative_эсе",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«эсе» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "эседа",
+      "эседо",
+      "эседе",
+      "эседө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of эсе is эседе."
+  },
+  {
+    "item_id": "gen_dative_шайлоочу",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«шайлоочу» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "шайлоочуга",
+      "шайлоочуго",
+      "шайлоочуге",
+      "шайлоочугө"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of шайлоочу is шайлоочуга."
+  },
+  {
+    "item_id": "gen_locative_боор",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«боор» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "боорда",
+      "боорде",
+      "боордо",
+      "боордө"
+    ],
+    "answer_index": 2,
+    "explanation": "The locative of боор is боордо."
+  },
+  {
+    "item_id": "gen_dative_жубай",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жубай» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жубайго",
+      "жубайга",
+      "жубайге",
+      "жубайгө"
+    ],
+    "answer_index": 1,
+    "explanation": "The dative of жубай is жубайга."
+  },
+  {
+    "item_id": "gen_accusative_топ",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«топ» сөзүнүн табыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "топты",
+      "топту",
+      "топти",
+      "топтү"
+    ],
+    "answer_index": 1,
+    "explanation": "The accusative of топ is топту."
+  },
+  {
+    "item_id": "gen_poss_2sg_кой",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«кой» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "койың",
+      "коюң",
+      "койиң",
+      "койүң"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 2sg of кой is коюң."
+  },
+  {
+    "item_id": "gen_poss_1sg_бала",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«бала» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "балам",
+      "балалар",
+      "баланы",
+      "баланын"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of бала is балам."
+  },
+  {
+    "item_id": "gen_poss_1sg_курулуш",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«курулуш» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "курулушым",
+      "курулушим",
+      "курулушүм",
+      "курулушум"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of курулуш is курулушум."
+  },
+  {
+    "item_id": "gen_plural_жер",
+    "category": "vowel_harmony",
+    "difficulty": "easy",
+    "question": "«жер» сөзүнүн көптүк түрү кайсы?",
+    "options": [
+      "жерлар",
+      "жерлор",
+      "жерлер",
+      "жерлөр"
+    ],
+    "answer_index": 2,
+    "explanation": "The plural of жер is жерлер."
+  },
+  {
+    "item_id": "gen_poss_2sg_коон",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«коон» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "кооның",
+      "коониң",
+      "коонүң",
+      "коонуң"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 2sg of коон is коонуң."
+  },
+  {
+    "item_id": "gen_dative_өкмөт",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«өкмөт» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "өкмөткө",
+      "өкмөтка",
+      "өкмөтко",
+      "өкмөтке"
+    ],
+    "answer_index": 0,
+    "explanation": "The dative of өкмөт is өкмөткө."
+  },
+  {
+    "item_id": "gen_poss_3sg_бурч",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«бурч» сөзүнө «анын» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "бурчы",
+      "бурчи",
+      "бурчү",
+      "бурчу"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 3sg of бурч is бурчу."
+  },
+  {
+    "item_id": "gen_poss_2sg_жамгыр",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жамгыр» сөзүнө «сенин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жамгырың",
+      "жамгыруң",
+      "жамгыриң",
+      "жамгырүң"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 2sg of жамгыр is жамгырың."
+  },
+  {
+    "item_id": "gen_locative_окуя",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«окуя» сөзүнүн жатыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "окуядо",
+      "окуяда",
+      "окуяде",
+      "окуядө"
+    ],
+    "answer_index": 1,
+    "explanation": "The locative of окуя is окуяда."
+  },
+  {
+    "item_id": "gen_genitive_жылуулук",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«жылуулук» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "жылуулуктын",
+      "жылуулуктин",
+      "жылуулуктун",
+      "жылуулуктүн"
+    ],
+    "answer_index": 2,
+    "explanation": "The genitive of жылуулук is жылуулуктун."
+  },
+  {
+    "item_id": "gen_poss_1sg_жер",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«жер» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "жерим",
+      "жерым",
+      "жерум",
+      "жерүм"
+    ],
+    "answer_index": 0,
+    "explanation": "The poss 1sg of жер is жерим."
+  },
+  {
+    "item_id": "gen_dative_конуш",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«конуш» сөзүнүн барыш жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "конушко",
+      "конушке",
+      "конушка",
+      "конушкө"
+    ],
+    "answer_index": 2,
+    "explanation": "The dative of конуш is конушка."
+  },
+  {
+    "item_id": "gen_poss_1sg_айып",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«айып» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "айыбум",
+      "айыбим",
+      "айыбүм",
+      "айыбым"
+    ],
+    "answer_index": 3,
+    "explanation": "The poss 1sg of айып is айыбым."
+  },
+  {
+    "item_id": "gen_genitive_уюм",
+    "category": "morphology",
+    "difficulty": "medium",
+    "question": "«уюм» сөзүнүн илик жөндөмөдөгү түрү кайсы?",
+    "options": [
+      "уюмдын",
+      "уюмдин",
+      "уюмдүн",
+      "уюмдун"
+    ],
+    "answer_index": 3,
+    "explanation": "The genitive of уюм is уюмдун."
+  },
+  {
+    "item_id": "gen_poss_1sg_таш",
+    "category": "morphology",
+    "difficulty": "hard",
+    "question": "«таш» сөзүнө «менин» таандык мүчөсүн кошсоң, кайсы туура?",
+    "options": [
+      "ташум",
+      "ташым",
+      "ташим",
+      "ташүм"
+    ],
+    "answer_index": 1,
+    "explanation": "The poss 1sg of таш is ташым."
+  }
+]

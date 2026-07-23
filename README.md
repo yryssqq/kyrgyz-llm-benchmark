@@ -43,6 +43,18 @@ So a single "90% on Kyrgyz" number hides the real gap: the model knows things ab
 | `translation` | meaning across ky/ru/en |
 | `orthography` | ң, ө, ү and easy-to-miss spellings |
 
+## Two benchmarks
+
+`data/items.json` is the **core** benchmark: 64 questions written and verified by a native speaker, spanning all eight categories. This is what the results above use.
+
+`data/items_generated.json` is a larger **morphology-only** set built by `build_generated_benchmark.py`. Its stems are real nouns attested in the corpus (see below) and its answers come from the verified rule engine, so it is reliable, but it covers only inflection, not idioms or culture, which cannot be generated automatically. It exists to test the paper's central finding at scale: the morphological weakness shows up on a handful of hand-written items, and this set lets it be measured over hundreds. It is kept separate and never presented as native-authored.
+
+```bash
+python build_generated_benchmark.py --limit 300
+python validate_items.py data/items_generated.json
+python run_benchmark.py --provider openai --model gpt-4o --items data/items_generated.json
+```
+
 ## Morphology generator
 
 Since morphology is where models fail, `morphology.py` encodes Kyrgyz noun inflection as rules: vowel harmony (4-way), consonant assimilation, and final-obstruent voicing. Given a list of stems it produces plural, five cases, and three possessives, plus multiple-choice items whose wrong options are real harmony violations. Its rules are unit-tested against the hand-verified forms in the benchmark.
