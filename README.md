@@ -52,6 +52,16 @@ python generate_morphology.py --sample 30      # print forms to eyeball
 python generate_morphology.py                  # write training pairs + MCQ items
 ```
 
+Stems come from the Apertium Kyrgyz dictionary ([apertium-kir](https://github.com/apertium/apertium-kir), GPL). `extract_stems.py` pulls common nouns out of its `lexc` file, drops entries the maintainers flagged as uncertain, drops Russian loanwords by orthography, and samples a set balanced across all sixteen combinations of vowel-harmony class and final-segment type, so no cell of the paradigm is starved.
+
+```bash
+git clone https://github.com/apertium/apertium-kir /tmp/apertium-kir
+python extract_stems.py /tmp/apertium-kir/apertium-kir.kir.lexc
+python stem_coverage.py data/stems_apertium.txt
+```
+
+Apertium's own two-level rules were also used to check the engine. Its `N Desonorisation` rule confirmed that the genitive and accusative onset is `д` rather than `н` after stems ending in `й`, `л`, `з`, `р`, which corrected a bug the fine-tuned model had been flagging by disagreeing with the gold forms.
+
 This turns a small verified stem list into thousands of items, for expanding the test set and for fine-tuning experiments. A native speaker still checks the stem list and a sample of the output; the rounding-harmony edge cases are the ones to watch.
 
 `finetune_qlora.ipynb` uses the generator to teach an open model this morphology: it holds out a fifth of the stems, trains a QLoRA adapter on the rest, and scores the model on the held-out words before and after. Runs on a free Kaggle GPU.
