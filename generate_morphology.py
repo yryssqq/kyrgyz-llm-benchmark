@@ -10,6 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from kyrgyz_eval import morphology as m
+from kyrgyz_eval.stems import read_stems
 
 FEATURES = ("plural",) + m.CASES + m.POSSESSIVES
 
@@ -28,20 +29,6 @@ QUESTION_TEMPLATES = {
 CATEGORY = {"plural": "vowel_harmony"}
 for _feature in m.CASES + m.POSSESSIVES:
     CATEGORY[_feature] = "morphology"
-
-
-def read_stems(path: Path) -> list[tuple[str, str | None]]:
-    stems = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        if "|" in line:
-            stem, irregular = line.split("|", 1)
-            stems.append((stem.strip(), irregular.strip()))
-        else:
-            stems.append((line, None))
-    return stems
 
 
 def build_training_pairs(stems, features):
@@ -92,7 +79,7 @@ def main() -> None:
     args = parser.parse_args()
 
     rng = random.Random(args.seed)
-    stems = read_stems(Path(args.stems))
+    stems = read_stems(args.stems)
 
     if args.holdout:
         held = {s.strip() for s in Path(args.holdout).read_text(encoding="utf-8").split()}

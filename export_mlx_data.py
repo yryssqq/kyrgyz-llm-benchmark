@@ -10,22 +10,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from kyrgyz_eval import morphology as m
+from kyrgyz_eval.stems import read_stems
 
 FEATURES = ("plural",) + m.CASES + m.POSSESSIVES
-
-
-def read_stems(path: Path) -> list[tuple[str, str | None]]:
-    stems = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        if "|" in line:
-            stem, irregular = line.split("|", 1)
-            stems.append((stem.strip(), irregular.strip()))
-        else:
-            stems.append((line, None))
-    return stems
 
 
 def instruction(stem: str, feature: str) -> str:
@@ -61,7 +48,7 @@ def main() -> None:
     args = parser.parse_args()
 
     rng = random.Random(args.seed)
-    stems = read_stems(Path(args.stems))
+    stems = read_stems(args.stems)
     rng.shuffle(stems)
 
     n_test = max(1, int(len(stems) * args.test_frac))

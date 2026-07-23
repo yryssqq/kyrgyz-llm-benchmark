@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from kyrgyz_eval import morphology as m
+from kyrgyz_eval.stems import read_stems as _read_pairs
 
 HARMONY_LABELS = {
     ("back", "unrounded"): "back unrounded (а, ы)",
@@ -41,13 +42,7 @@ def ending_of(stem: str) -> str:
 
 
 def read_stems(path: Path) -> list[str]:
-    stems = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        stems.append(line.split("|", 1)[0].strip())
-    return stems
+    return [s for s, _ in _read_pairs(path)]
 
 
 def main() -> None:
