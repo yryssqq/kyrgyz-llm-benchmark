@@ -1,0 +1,1808 @@
+{
+  "model": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+  "adapter": "adapters_multi",
+  "accuracy": 0.4,
+  "n": 300,
+  "records": [
+    {
+      "item_id": "gen_poss_1sg_мүлк",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_1sg_көмүр",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_тиеше",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_дем",
+      "predicted": 1,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_өнөр",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_бала",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_алтын",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_жума",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_жумуш",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_жүгөрү",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_кесип",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_жүк",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_керек",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_тутум",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_медресе",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_буудай",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_тиеше",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_жыйын",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_улут",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_жооп",
+      "predicted": 2,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_чөнтөк",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_түрк",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_тур",
+      "predicted": 3,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_кабар",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_жолу",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_мүлк",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_чакырым",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_сүрөт",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_түн",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_маалымат",
+      "predicted": 3,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_отурум",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_согуш",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_көмүр",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_тургун",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_чечим",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_1sg_мелдеш",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_сапар",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_күмүш",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_чарба",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_дүнүйө",
+      "predicted": 1,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_буудай",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_топ",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_ыктыяр",
+      "predicted": 2,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_тилке",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_мекеме",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_керек",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_күрүч",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_ооз",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_түгөй",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_көз",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_көргөзмө",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_бой",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_кызмат",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_эне",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_кечирим",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_көйгөй",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_кезек",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_коло",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_себеп",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_мекенчил",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_мүлк",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_өлкө",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_улут",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_эсеп",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_1sg_пайыз",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_кеңешме",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_ийгилик",
+      "predicted": 3,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_айыл",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_базар",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_отурум",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_өмүр",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_бүгүн",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_өлчөм",
+      "predicted": 2,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_тоо",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_укук",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_милдет",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_кытай",
+      "predicted": 3,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_колдонмо",
+      "predicted": 1,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_керек",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_акы",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_жүрөк",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_шайлоо",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_май",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_буудай",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_мөөнөт",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_тургун",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_мечит",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_кечирим",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_жаш",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_кудай",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_таш",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_тоскоол",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_мелдеш",
+      "predicted": 1,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_керектөө",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_жамгыр",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_күнөөкөр",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_муз",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_жүк",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_салык",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_туу",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_ата",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_негиз",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_сот",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_көргөзмө",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_эгин",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_күрүч",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_кеңсе",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_акча",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_эже",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_мезгил",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_жумуртка",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_ишеним",
+      "predicted": 3,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_тилке",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_эже",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_жоктук",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_сан",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_эсеп",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_жыл",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_чебер",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_суу",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_жай",
+      "predicted": 3,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_кыз",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_моюн",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_түшүм",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_колдонмо",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_май",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_кечирим",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_кар",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_кеңешме",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_кызмат",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_жооп",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_чебер",
+      "predicted": 3,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_оюн",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_туу",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_кол",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_бет",
+      "predicted": 3,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_себеп",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_тоскоол",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_дүкөн",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_тыюу",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_тумшук",
+      "predicted": 3,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_калк",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_өлүм",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_мезгил",
+      "predicted": 2,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_өкүл",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_көпүрө",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_пайда",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_көзөмөл",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_үйүр",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_пикир",
+      "predicted": 3,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_эсеп",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_бийлик",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_ийгилик",
+      "predicted": 1,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_бөлүм",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_теңир",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_чакырым",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_шайлоочу",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_отун",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_көйгөй",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_акча",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_кызык",
+      "predicted": 3,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_жаш",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_куту",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_согуш",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_абал",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_тургун",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_жеңүүчү",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_кире",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_күйөө",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_керектөө",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_куту",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_кызык",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_баатыр",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_дин",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_түп",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_буу",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_1sg_коон",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_буудай",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_тейлөө",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_мир",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_дем",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_жоктук",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_айыл",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_керектөө",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_курултай",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_мелдеш",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_кооп",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_эмир",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_өкүл",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_улут",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_бөлүк",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_мүйүз",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_ыктыяр",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_үйүр",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_мал",
+      "predicted": 2,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_мал",
+      "predicted": 1,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_тукум",
+      "predicted": 2,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_салык",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_добуш",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_бай",
+      "predicted": 3,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_аял",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_той",
+      "predicted": 3,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_долбоор",
+      "predicted": 2,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_кабар",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_апа",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_куурай",
+      "predicted": 2,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_насыя",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_соода",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_дос",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_текче",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_чет",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_кудай",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_1sg_медресе",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_бой",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_дүң",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_жубай",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_кар",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_отун",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_кудай",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_genitive_ишеним",
+      "predicted": 3,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_шайлоочу",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_былтыр",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_катчы",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_добуш",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_дем",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_коркунуч",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_илим",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_ата",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_ини",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_ишкер",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_бөлмө",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_боор",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_сөөк",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_үйүр",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_тутум",
+      "predicted": 3,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_өрүк",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_текче",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_бүгүн",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_мүчө",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_билим",
+      "predicted": 3,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_жума",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_кайык",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_бороон",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_киреше",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_эсе",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_борбор",
+      "predicted": 1,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_plural_мөөнөт",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_айыл",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_жүргүнчү",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_сөз",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_талап",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_баш",
+      "predicted": null,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_үлгү",
+      "predicted": 3,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_өлкө",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_ablative_колдонмо",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_базар",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_ablative_суу",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_чет",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_шайлоо",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_келечек",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_керектөө",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_кызык",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_тоо",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_күнөөкөр",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_locative_тутум",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_мекеме",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_калк",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_кире",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_мөмө",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_күйөө",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_эреже",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_өнөр",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_мелдеш",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_accusative_сүт",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_себеп",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_3sg_кол",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_киши",
+      "predicted": null,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_күмүш",
+      "predicted": 1,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_бет",
+      "predicted": 3,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_калк",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_эсе",
+      "predicted": null,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_dative_шайлоочу",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_боор",
+      "predicted": 2,
+      "answer": 2,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_жубай",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_accusative_топ",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_2sg_кой",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_бала",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_1sg_курулуш",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_plural_жер",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_коон",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_өкмөт",
+      "predicted": null,
+      "answer": 0,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_3sg_бурч",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_2sg_жамгыр",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_locative_окуя",
+      "predicted": 0,
+      "answer": 1,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_жылуулук",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_жер",
+      "predicted": 0,
+      "answer": 0,
+      "correct": true
+    },
+    {
+      "item_id": "gen_dative_конуш",
+      "predicted": 0,
+      "answer": 2,
+      "correct": false
+    },
+    {
+      "item_id": "gen_poss_1sg_айып",
+      "predicted": 0,
+      "answer": 3,
+      "correct": false
+    },
+    {
+      "item_id": "gen_genitive_уюм",
+      "predicted": 3,
+      "answer": 3,
+      "correct": true
+    },
+    {
+      "item_id": "gen_poss_1sg_таш",
+      "predicted": 1,
+      "answer": 1,
+      "correct": true
+    }
+  ]
+}

@@ -131,6 +131,21 @@ Each run holds out a fifth of the stems, so accuracy is measured only on words a
 
 The remaining errors concentrate on the two rules that interact with the stem's final consonant: intervocalic voicing and devoicing after a voiceless stop.
 
+### Generation and recognition are not the same task
+
+The 0% to 77% figures above are a **generation** task: the model writes the inflected form and it must match exactly. That is harder than the four-option benchmark the GPT models took, where a lucky guess scores 25%. To compare all four models fairly, the two Qwen models were also run on the same 300 multiple-choice items:
+
+![four models on the same MCQ task](results/report/mcq_four_models.png)
+
+| model | MCQ accuracy |
+|---|---|
+| gpt-4o | 82.7% |
+| gpt-4o-mini | 65.7% |
+| Qwen-0.5B + our LoRA | 40.0% |
+| Qwen-0.5B base | 29.3% |
+
+On equal footing the fine-tuned 0.5B model does **not** overtake the frontier models: it moves from just above chance (29%) to 40%, while gpt-4o-mini and gpt-4o are far ahead. The lesson is that the two tasks measure different things. Fine-tuning on rule data genuinely teaches the model to *produce* inflected forms (the 77% generation result), but multiple choice also demands parsing a Kyrgyz question and weighing four distractors, which stretches the language understanding a 0.5B model does not have. A larger base model would be the fair target for the fine-tuning intervention, and is the obvious next experiment.
+
 ## Files
 
 ```
