@@ -2,23 +2,24 @@
 from __future__ import annotations
 
 import argparse
-import random
+import glob
+import json
 import re
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from kyrgyz_eval import morphology as m
 
-ENTRY = re.compile(
-    r'^([а-яёөүңа-я]+):([^ \t]+)\s+N-INFL\s*;(?:\s*!\s*"?([^"!]*)"?)?',
-    re.IGNORECASE,
-)
+LEXC_ENTRY = re.compile(r'^([а-яёөүң]+):([^ \t]+)\s+N-INFL\s*;(?:\s*!\s*"?([^"!]*)"?)?', re.IGNORECASE)
 CYRILLIC = re.compile(r"^[а-яёөүң]+$")
+
 RUSSIAN_ONLY = set("вфцщьъё")
 CONSONANTS = set("бгдjжзйклмнңпрстчшх")
+BACK_VOWELS = set("аоуы")
+FRONT_VOWELS = set("еиэөү")
 
 INTERNATIONAL_SUFFIXES = (
     "изм", "ист", "ия", "ий", "лог", "метр", "скоп", "тор", "сор",
@@ -43,15 +44,28 @@ INTERNATIONAL_WORDS = {
     "бампер", "бензин", "галош", "гарнитур", "депозит", "диплом", "импорт",
     "йод", "каникул", "карантин", "кило", "легионер", "лимит", "лорд",
     "макияж", "микроб", "минибус", "онлайн", "реестр", "ритм", "актер",
-    "акушер", "аккорд", "электрон", "эксперт", "пол", "обо",
-    "бюджет", "гол", "дилер", "имидж", "комсомол", "кадрлар", "паром",
-    "режим", "термин", "зона", "баланс", "лея", "мини", "род", "раса",
-    "бокс", "старт", "экран", "аренда", "билет", "бинт", "бланк",
+    "акушер", "аккорд", "электрон", "эксперт", "пол", "обо", "бюджет", "гол",
+    "дилер", "имидж", "комсомол", "паром", "режим", "термин", "зона", "баланс",
+    "род", "раса", "бокс", "старт", "экран", "аренда", "билет", "доллар",
+    "банк", "район", "офис", "процент", "фонд", "сом",
+    "январь", "февраль", "март", "апрель", "июнь", "июль", "август",
+    "сентябрь", "октябрь", "ноябрь", "декабрь",
+    "лидер", "рейтинг", "рынок", "тонна", "куб", "кубок", "курс", "округ",
+    "облус", "пул", "офис", "митинг", "лагер", "штаб", "смена",
 }
 
+PLURAL_SUFFIXES = tuple(c + v + "р" for c in "лдт" for v in "аоеө")
 
-BACK_VOWELS = set("аоуы")
-FRONT_VOWELS = set("еиэөү")
+ENDINGS = ["vowel", "sonorant", "voiced", "voiceless"]
+
+
+def looks_plural(word: str, lexicon: set[str]) -> bool:
+    for suffix in PLURAL_SUFFIXES:
+        if word.endswith(suffix) and len(word) - len(suffix) >= 2:
+            if word[: -len(suffix)] in lexicon:
+                return True
+    return False
+HARMONIES = [("back", "unrounded"), ("back", "rounded"), ("front", "unrounded"), ("front", "rounded")]
 
 
 def is_internally_harmonic(word: str) -> bool:
@@ -62,25 +76,30 @@ def is_internally_harmonic(word: str) -> bool:
 
 
 def looks_borrowed(word: str) -> bool:
-    if word in INTERNATIONAL_WORDS:
-        return True
-    if word.endswith(INTERNATIONAL_SUFFIXES):
+    if word in INTERNATIONAL_WORDS or word.endswith(INTERNATIONAL_SUFFIXES):
         return True
     if len(word) > 1 and word[0] in CONSONANTS and word[1] in CONSONANTS:
         return True
-    if not is_internally_harmonic(word):
-        return True
-    if "э" in word[1:]:
+    if not is_internally_harmonic(word) or "э" in word[1:]:
         return True
     return False
 
-ENDINGS = ["vowel", "sonorant", "voiced", "voiceless"]
-HARMONIES = [("back", "unrounded"), ("back", "rounded"), ("front", "unrounded"), ("front", "rounded")]
+
+def acceptable(word: str, min_len: int, max_len: int) -> bool:
+    if not CYRILLIC.match(word) or not min_len <= len(word) <= max_len:
+        return False
+    if RUSSIAN_ONLY & set(word) or looks_borrowed(word):
+        return False
+    try:
+        m._last_vowel(word)
+    except ValueError:
+        return False
+    return True
 
 
 def harmony_of(stem: str) -> tuple[str, str]:
     vowel = m._last_vowel(stem)
-    return ("back" if vowel in "аоуы" else "front",
+    return ("back" if vowel in BACK_VOWELS else "front",
             "rounded" if vowel in "оуөү" else "unrounded")
 
 
@@ -95,67 +114,103 @@ def ending_of(stem: str) -> str:
     return "voiced"
 
 
-def parse_lexc(path: Path, min_len: int, max_len: int, native_only: bool = True) -> list[tuple[str, str]]:
-    entries = []
-    seen = set()
+def load_apertium(path: Path) -> dict[str, str]:
+    found = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line or line.startswith("!"):
             continue
-        match = ENTRY.match(line)
+        match = LEXC_ENTRY.match(line)
         if not match:
             continue
-
         lemma, stem, gloss = match.group(1), match.group(2), (match.group(3) or "").strip()
         if lemma != stem or "%" in stem:
             continue
         if "FIXME" in gloss.upper() or "CHECK" in gloss.upper() or "?" in gloss:
             continue
-        if not CYRILLIC.match(lemma):
-            continue
-        if native_only and (RUSSIAN_ONLY & set(lemma) or looks_borrowed(lemma)):
-            continue
-        if not min_len <= len(lemma) <= max_len:
-            continue
-        if lemma in seen:
-            continue
-        try:
-            m._last_vowel(lemma)
-        except ValueError:
-            continue
+        found.setdefault(lemma, gloss)
+    return found
 
-        seen.add(lemma)
-        entries.append((lemma, gloss))
-    return entries
+
+def load_ud(directory: Path) -> Counter:
+    counts: Counter = Counter()
+    for filename in glob.glob(str(directory / "**" / "*.conllu"), recursive=True):
+        for line in open(filename, encoding="utf-8"):
+            if line.startswith("#") or not line.strip():
+                continue
+            parts = line.split("\t")
+            if len(parts) > 3 and parts[3] == "NOUN":
+                counts[parts[2].lower()] += 1
+    return counts
+
+
+def load_wiktionary(path: Path) -> dict[str, str]:
+    found = {}
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if entry.get("lang_code") != "ky" or entry.get("pos") != "noun":
+                continue
+            word = entry.get("word", "").lower()
+            if not word or word in found:
+                continue
+            glosses = [g for sense in entry.get("senses", []) for g in sense.get("glosses", [])]
+            found[word] = glosses[0] if glosses else ""
+    return found
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("lexc", help="path to apertium-kir.kir.lexc")
-    parser.add_argument("--out", default="data/stems_apertium.txt")
+    parser.add_argument("--apertium", help="path to apertium-kir.kir.lexc")
+    parser.add_argument("--ud", help="directory containing UD .conllu files")
+    parser.add_argument("--wiktionary", help="path to kaikki Kyrgyz .jsonl")
+    parser.add_argument("--out", default="data/stems_multi.txt")
     parser.add_argument("--per-cell", type=int, default=20)
+    parser.add_argument("--min-sources", type=int, default=2)
     parser.add_argument("--min-len", type=int, default=3)
     parser.add_argument("--max-len", type=int, default=8)
-    parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--allow-loanwords", action="store_true")
     args = parser.parse_args()
 
-    rng = random.Random(args.seed)
-    entries = parse_lexc(Path(args.lexc), args.min_len, args.max_len, not args.allow_loanwords)
-    print(f"parsed {len(entries)} candidate nouns")
+    apertium = load_apertium(Path(args.apertium)) if args.apertium else {}
+    ud = load_ud(Path(args.ud)) if args.ud else Counter()
+    wiktionary = load_wiktionary(Path(args.wiktionary)) if args.wiktionary else {}
+    print(f"apertium {len(apertium)} | ud {len(ud)} | wiktionary {len(wiktionary)}")
 
-    buckets: dict[tuple, list[tuple[str, str]]] = defaultdict(list)
-    for lemma, gloss in entries:
-        buckets[(harmony_of(lemma), ending_of(lemma))].append((lemma, gloss))
+    sources: dict[str, set[str]] = defaultdict(set)
+    glosses: dict[str, str] = {}
+    for word in apertium:
+        sources[word].add("apertium")
+        glosses.setdefault(word, apertium[word])
+    for word in ud:
+        sources[word].add("ud")
+    for word in wiktionary:
+        sources[word].add("wikt")
+        if not glosses.get(word):
+            glosses[word] = wiktionary[word]
 
-    selected: list[tuple[str, str]] = []
+    lexicon = set(sources)
+    candidates = [
+        w for w, srcs in sources.items()
+        if len(srcs) >= args.min_sources
+        and acceptable(w, args.min_len, args.max_len)
+        and not looks_plural(w, lexicon)
+    ]
+    print(f"{len(candidates)} candidates in >= {args.min_sources} sources and passing filters")
+
+    buckets: dict[tuple, list[str]] = defaultdict(list)
+    for word in candidates:
+        buckets[(harmony_of(word), ending_of(word))].append(word)
+
+    selected: list[str] = []
     print(f"\n{'harmony':<24}" + "".join(f"{e:>12}" for e in ENDINGS))
     for harmony in HARMONIES:
-        label = f"{harmony[0]} {harmony[1]}"
-        row = f"{label:<24}"
+        row = f"{harmony[0] + ' ' + harmony[1]:<24}"
         for ending in ENDINGS:
-            pool = sorted(buckets[(harmony, ending)])
-            take = pool if len(pool) <= args.per_cell else rng.sample(pool, args.per_cell)
+            pool = sorted(buckets[(harmony, ending)], key=lambda w: (-ud[w], -len(sources[w]), w))
+            take = pool[:args.per_cell]
             selected.extend(take)
             row += f"{len(take):>12}"
         print(row)
@@ -164,14 +219,17 @@ def main() -> None:
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open("w", encoding="utf-8") as f:
-        f.write("# Candidate noun stems extracted from the Apertium Kyrgyz dictionary\n")
-        f.write("# (apertium-kir, https://github.com/apertium/apertium-kir, GPL).\n")
-        f.write("# Balanced across vowel-harmony and final-consonant classes.\n")
-        f.write("# A native speaker should review and prune this list.\n#\n")
-        for lemma, gloss in selected:
-            f.write(f"{lemma}{('  # ' + gloss) if gloss else ''}\n")
+        f.write("# Kyrgyz noun stems attested in multiple independent resources.\n")
+        f.write("# Sources: apertium-kir (GPL), Universal Dependencies Kyrgyz treebanks,\n")
+        f.write("# and Wiktionary via kaikki.org. Ranked by corpus frequency, then balanced\n")
+        f.write("# across vowel-harmony and final-segment classes.\n")
+        f.write("# Columns after '#': gloss, sources, corpus frequency.\n#\n")
+        for word in selected:
+            note = f"{glosses.get(word, '')} [{'+'.join(sorted(sources[word]))}, freq {ud[word]}]"
+            f.write(f"{word}  # {note.strip()}\n")
 
-    print(f"\nselected {len(selected)} stems -> {out}")
+    covered = sum(1 for w in selected if ud[w] > 0)
+    print(f"\nselected {len(selected)} stems ({covered} attested in the corpus) -> {out}")
 
 
 if __name__ == "__main__":

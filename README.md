@@ -52,12 +52,26 @@ python generate_morphology.py --sample 30      # print forms to eyeball
 python generate_morphology.py                  # write training pairs + MCQ items
 ```
 
-Stems come from the Apertium Kyrgyz dictionary ([apertium-kir](https://github.com/apertium/apertium-kir), GPL). `extract_stems.py` pulls common nouns out of its `lexc` file and keeps only what is useful for teaching native morphology. It drops entries the maintainers flagged as uncertain, and filters borrowings four ways: letters that occur only in Russian loans (в, ф, ц, щ, ь, ъ, ё), initial consonant clusters, international suffixes, and, most usefully, stems whose vowels are not internally harmonic. That last test is principled rather than ad hoc: a native Kyrgyz root has all its vowels in one backness class, so `коридор` and `музей` fail it while `карышкыр` and `күмүш` pass. What survives is sampled evenly across all sixteen combinations of harmony class and final-segment type, so no cell of the paradigm is starved.
+Stems are drawn from three independent resources and a stem is kept only if at least two of them attest it:
+
+| source | contributes |
+|---|---|
+| [apertium-kir](https://github.com/apertium/apertium-kir) (GPL) | lexicographic coverage, glosses |
+| [UD Kyrgyz treebanks](https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU) (KTMU, TueCL) | corpus attestation and frequency |
+| Wiktionary via [kaikki.org](https://kaikki.org/dictionary/Kyrgyz/) | definitions |
+
+Requiring two sources removes typos and one-off dictionary artefacts, and the treebank frequency gives a principled ranking: the selected stems are the common words of the language rather than an arbitrary sample.
+
+`extract_stems.py` then filters for what actually teaches native morphology. It drops entries the Apertium maintainers flagged as uncertain, and screens borrowings four ways: letters that occur only in Russian loans (в, ф, ц, щ, ь, ъ, ё), initial consonant clusters, international suffixes, and stems whose vowels are not internally harmonic. That last test is principled rather than ad hoc: a native Kyrgyz root keeps all its vowels in one backness class, so `коридор` and `музей` fail it while `карышкыр` and `күмүш` pass. A further check catches lemmas that are already plural: if stripping a plural suffix leaves another attested noun, as in `жолдор` and `үйлөр`, the entry is dropped so the generator never inflects an inflected form. What survives is balanced across all sixteen combinations of harmony class and final-segment type.
 
 ```bash
 git clone https://github.com/apertium/apertium-kir /tmp/apertium-kir
-python extract_stems.py /tmp/apertium-kir/apertium-kir.kir.lexc
-python stem_coverage.py data/stems_apertium.txt
+git clone https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU /tmp/UD_Kyrgyz-KTMU
+curl -o /tmp/kyrgyz_wikt.jsonl https://kaikki.org/dictionary/Kyrgyz/kaikki.org-dictionary-Kyrgyz.jsonl
+
+python extract_stems.py --apertium /tmp/apertium-kir/apertium-kir.kir.lexc \
+  --ud /tmp --wiktionary /tmp/kyrgyz_wikt.jsonl
+python stem_coverage.py data/stems_multi.txt
 ```
 
 Apertium's own two-level rules were also used to check the engine. Its `N Desonorisation` rule confirmed that the genitive and accusative onset is `д` rather than `н` after stems ending in `й`, `л`, `з`, `р`, which corrected a bug the fine-tuned model had been flagging by disagreeing with the gold forms.
