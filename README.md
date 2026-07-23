@@ -41,7 +41,7 @@ The morphology finding above rests on a handful of hand-written items. To put we
 
 ![morphology by feature](results/report/generated_by_feature.png)
 
-The weakness holds up over hundreds of items, and the per-case breakdown is itself informative. Both models are weakest on the cases whose suffix both harmonises and assimilates to the stem — the ablative and the accusative sit near 60% even for gpt-4o, while the possessives, whose suffix is more regular, reach the low 90s. The smaller model is worse almost everywhere but not uniformly: the gap between the two is widest exactly on the cases that need the most phonological computation (dative, genitive), which is where model scale appears to buy the most.
+The weakness holds up over hundreds of items, and the per-case breakdown is itself informative. Both models are weakest on the cases whose suffix both harmonises and assimilates to the stem: the ablative and the accusative sit near 60% even for gpt-4o, while the possessives, whose suffix is more regular, reach the low 90s. The smaller model is worse almost everywhere but not uniformly: the gap between the two is widest exactly on the cases that need the most phonological computation (dative, genitive), which is where model scale appears to buy the most.
 
 ## Categories
 
