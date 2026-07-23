@@ -1,14 +1,39 @@
 # Paper draft
 
-`main.tex` is the working draft, now filled with the real numbers from this repo. It
-compiles with plain LaTeX; for submission, swap the preamble for the venue's style
-file.
+Two versions of the same paper:
 
-## How to compile
+- `main.tex` — readable working draft (named author, plain `article` class, GitHub link). Use this to read and edit.
+- `neurips_submission.tex` — **anonymized** version formatted for the NeurIPS 2026 workshop **LP4FM** (Linguistic Principles for Foundation Models). Use this to submit.
+
+Both share `refs.bib` and the same figures.
+
+## Target venue
+
+**LP4FM @ NeurIPS 2026** (Sydney). A near-exact topical fit: its scope explicitly covers low-resource languages and "how tokenization and morphological complexity shape capability", and "benchmarks beyond surface accuracy ... cross-linguistic competence".
+
+- Deadline: **August 29, 2026**
+- Length: short 4 pages / full 9 pages (references and appendices excluded)
+- Non-archival, **double-blind** (anonymization mandatory)
+- Backup venue: AI4GOOD @ NeurIPS 2026 (social-good framing).
+
+## Compiling the NeurIPS submission
+
+1. Get the official `neurips_2026.sty` (from the workshop site or the built-in Overleaf "NeurIPS 2026" template) and put it next to `neurips_submission.tex`.
+2. Upload `neurips_submission.tex`, `refs.bib`, and the three figure PNGs to Overleaf.
+3. The style is used in **anonymous** mode (`\usepackage{neurips_2026}`, no option), which prints "Anonymous Author(s)". For the camera-ready after acceptance, switch to `\usepackage[final]{neurips_2026}` and restore the author block, GitHub link, and acknowledgements.
+
+## Anonymization checklist (done in `neurips_submission.tex`)
+
+- [x] Author name and email removed (placeholder "Anonymous Author(s)").
+- [x] GitHub link removed from Availability ("released upon acceptance").
+- [x] No acknowledgements (they would deanonymize; add them only in the camera-ready).
+- [ ] Before submitting, double-check the PDF for any remaining identifying text.
+
+## How to compile the readable draft (`main.tex`)
 
 No local LaTeX is needed. Upload `main.tex`, `refs.bib`, and the figures to
 [Overleaf](https://overleaf.com) (New Project -> Upload). The figures are referenced
-at `../results/report/*.png`, so either keep that relative layout or move the four
+at `../results/report/*.png`, so either keep that relative layout or move the
 PNGs next to `main.tex` and drop the `../results/report/` prefix.
 
 Figures used:
