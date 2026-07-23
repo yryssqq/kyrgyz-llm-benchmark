@@ -58,8 +58,9 @@ the rule engine, and all code.
 Multilingual evaluation of large language models is concentrated on a small set of
 high-resource languages. For the Turkic family, and for Kyrgyz in particular,
 published evidence of competence is thin and mostly indirect. The usual number is a
-translation score computed on a test set that was itself produced by machine
-translation. Such a score conflates two systems: it rewards the model for the parts
+translation score computed on a human- or machine-translated test set such as
+FLORES-200 \cite{nllb2022}. Such a score conflates two systems: it rewards the model
+for the parts
 of the sentence the translation pipeline happened to render well, and it says nothing
 about whether the model can produce a grammatical Kyrgyz form on demand.
 
@@ -96,15 +97,49 @@ Our contributions are:
 \section{Related Work}
 \label{sec:related}
 
-TODO. This section is a stub and must be written from a literature review. Cover:
-(i) multilingual LLM benchmarks and their language coverage; (ii) Turkic-language NLP
-resources and benchmarks (for example the Universal Dependencies Kyrgyz treebanks and
-recent Turkic evaluation suites); (iii) morphological evaluation and probing for
-agglutinative languages, including the SIGMORPHON inflection tasks; (iv) rule-based
-and synthetic data generation for low-resource languages; and (v) the Apertium
-Kyrgyz description used here. Position the contribution as evaluating the
-\emph{production} of morphology under a guessing-proof protocol, rather than
-translation quality.
+\paragraph{Multilingual evaluation and language coverage.}
+Massively multilingual benchmarks such as XTREME \cite{hu2020xtreme} and
+MEGAVERSE \cite{ahuja2024megaverse} evaluate models across dozens of languages, but
+their coverage of any individual low-resource language is thin, and much of the
+non-English data is obtained by translation rather than native authoring. Knowledge
+benchmarks in the MMLU family \cite{hendrycks2021mmlu} have been extended to more
+languages largely through machine translation, which can introduce errors and misses
+culturally specific content. Our benchmark is deliberately narrow and native: one
+language, eight phenomena, every item written by a speaker.
+
+\paragraph{Turkic and Kyrgyz resources.}
+The closest work is TUMLU \cite{tumlu2025}, a native, MMLU-style understanding
+benchmark spanning nine Turkic languages including Kyrgyz. TUMLU measures
+subject-matter knowledge expressed in these languages; we instead isolate grammatical
+competence, and in particular the production of morphology, which subject-matter
+questions do not test. For Kyrgyz specifically the main existing resources are the
+Universal Dependencies treebanks \cite{nivre2020ud}, which we use as one source of
+attested nouns, and the Apertium finite-state description
+\cite{forcada2011apertium,khanna2021apertium}, whose morphological rules we use both
+as a stem source and as an independent check on our own rule engine.
+
+\paragraph{Morphological inflection.}
+The SIGMORPHON shared tasks \cite{mccarthy2019sigmorphon,vylomova2020sigmorphon}
+established inflection generation from a lemma and morphosyntactic features as a
+standard evaluation, across typologically diverse and often low-resource languages.
+Our generation task is in that tradition, but the object of study is different: rather
+than building the best inflection system, we ask whether a general-purpose LLM can
+inflect at all, and whether targeted data repairs the deficiency.
+
+\paragraph{Data augmentation for low-resource morphology.}
+A recurring finding in that literature is that synthetic data, in particular the
+``hallucination'' of new stems, sharply improves low-resource inflection
+\cite{anastasopoulos2019inflection}. Our rule engine is a deterministic instance of
+the same idea: because Kyrgyz nominal morphology is rule-governed, we can generate
+correct training pairs for arbitrarily many attested stems rather than sampling them,
+and we use them to teach the phenomenon rather than to win a shared task.
+
+\paragraph{Translation benchmarks and dictionaries.}
+Human-translated evaluation sets such as FLORES-200, released with NLLB
+\cite{nllb2022}, are the usual way low-resource languages enter LLM evaluation; they
+measure translation quality, which conflates the model with the translation setup and
+does not probe morphology directly. For lexical resources we draw on Wiktionary via
+the Wiktextract pipeline \cite{ylonen2022wiktextract}.
 
 \section{Benchmark Construction}
 \label{sec:benchmark}
@@ -165,11 +200,12 @@ imbalance is visible.
 \section{Experimental Setup}
 \label{sec:setup}
 
-\paragraph{Models.} We evaluate \texttt{gpt-4o} and \texttt{gpt-4o-mini} on the core
+\paragraph{Models.} We evaluate \texttt{gpt-4o} and \texttt{gpt-4o-mini} \cite{openai2023gpt4} on the core
 benchmark. The fine-tuning study additionally uses the open models
-\texttt{Qwen2.5-0.5B-Instruct} and \texttt{Qwen2.5-3B-Instruct}. TODO: fix model
-version strings and access dates, and add further frontier models (for example
-Gemini and Claude) to show the dissociation is not specific to one provider.
+\texttt{Qwen2.5-0.5B-Instruct} and \texttt{Qwen2.5-3B-Instruct} \cite{qwen2025}.
+TODO: fix exact model version strings and access dates, and add further frontier
+models (for example Gemini and Claude) to show the dissociation is not specific to one
+provider.
 
 \paragraph{Prompting.} Items are presented in Kyrgyz with numbered options and the
 model is asked to reply with a single digit. Numeric labels rather than A/B/C/D avoid
@@ -291,15 +327,16 @@ but not by a high one (\ky{у}, giving \ky{суу}~$\to$~\ky{сууга}, not \k
 engine is unit-tested against the hand-authored benchmark forms, so generated data
 inherits native-verified answers. During development the fine-tuned model repeatedly
 disagreed with one class of gold forms; the disagreement turned out to be a bug in an
-early version of our own rule, which an independent finite-state description of Kyrgyz
-confirmed, after which the rule was corrected. We regard this as evidence for, not
-against, the reliability of the final engine.
+early version of our own rule, which the independent Apertium finite-state description
+of Kyrgyz \cite{khanna2021apertium} confirmed, after which the rule was corrected. We
+regard this as evidence for, not against, the reliability of the final engine.
 
 \subsection{Stem selection}
 
 Stems are drawn from three independent resources: the Apertium Kyrgyz morphological
-dictionary, the Universal Dependencies Kyrgyz treebanks, and Wiktionary. A stem is
-kept only if at least two of the three attest it, which removes typos and one-off
+dictionary \cite{khanna2021apertium}, the Universal Dependencies Kyrgyz treebanks
+\cite{nivre2020ud}, and Wiktionary via Wiktextract \cite{ylonen2022wiktextract}. A
+stem is kept only if at least two of the three attest it, which removes typos and one-off
 dictionary artefacts, and the treebank token counts give a frequency ranking so the
 selected stems are common words rather than an arbitrary sample. We further screen out
 Russian borrowings using orthographic cues and, principally, the fact that a native
@@ -313,7 +350,8 @@ vowel-harmony class and final-segment type so that no cell of the paradigm is st
 
 \paragraph{Setup.} Stems are split so that test stems never appear in training; any
 gain therefore reflects generalisation of the rules rather than memorisation of forms.
-We fine-tune with LoRA on the rule-generated training pairs and evaluate two ways: a
+We fine-tune with LoRA \cite{hu2022lora} on the rule-generated training pairs and
+evaluate two ways: a
 \emph{generation} task, where the model must write the inflected form and it must match
 exactly, and the four-option \emph{recognition} task used for the benchmark.
 
@@ -326,7 +364,8 @@ stems.
 \paragraph{Recognition.} On the multiple-choice task the same fine-tuning helps but by
 less, and a larger base benefits more: the 0.5B model moves from 29.3\% to 40.0\% and
 the 3B model from 28.0\% to 47.0\% (Figure~\ref{fig:mcq}). The two tasks measure
-different abilities. Generation isolates whether the morphological rules have been
+different abilities. Generation, the setting of the SIGMORPHON inflection
+tasks \cite{vylomova2020sigmorphon}, isolates whether the morphological rules have been
 acquired; recognition additionally requires parsing a Kyrgyz question and weighing four
 distractors, which is bounded by the broader language understanding a small model
 lacks. This is why the fine-tuned open models still trail the frontier models on

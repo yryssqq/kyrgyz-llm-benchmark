@@ -1,17 +1,153 @@
-% Add references here. Suggested categories to fill:
-%
-% 1. Multilingual LLM evaluation and language coverage
-% 2. Turkic NLP resources and benchmarks
-% 3. Morphological evaluation / probing for agglutinative languages
-% 4. Synthetic and rule-generated data for low-resource languages
-% 5. Kyrgyz grammar references for the rule engine
-%
-% Example entry format:
-%
-% @inproceedings{key2024,
-%   title     = {Title},
-%   author    = {Last, First},
-%   booktitle = {Proceedings of ...},
-%   year      = {2024},
-%   url       = {https://...}
-% }
+% ============================================================================
+% VERIFIED REFERENCES
+% Every paper below was confirmed to exist via web search: title, venue, year,
+% and arXiv/ACL identifier are correct to the best of that check. Fields marked
+% "% VERIFY" (full author lists, page numbers) must still be checked against the
+% source before submission, since those are the details most easily mistaken.
+% Author: run each URL and confirm before citing.
+% ============================================================================
+
+% --- 1. Multilingual LLM evaluation and language coverage ---
+
+@inproceedings{hu2020xtreme,
+  title     = {{XTREME}: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalisation},
+  author    = {Hu, Junjie and Ruder, Sebastian and Siddhant, Aditya and Neubig, Graham and Firat, Orhan and Johnson, Melvin},
+  booktitle = {Proceedings of the 37th International Conference on Machine Learning (ICML)},
+  year      = {2020},
+  url        = {https://proceedings.mlr.press/v119/hu20b.html}
+}
+
+@inproceedings{ahuja2024megaverse,
+  title     = {{MEGAVERSE}: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks},
+  author    = {Ahuja, Sanchit and others}, % VERIFY full author list
+  booktitle = {Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+  year      = {2024},
+  note      = {arXiv:2311.07463},
+  url        = {https://arxiv.org/abs/2311.07463}
+}
+
+@article{hendrycks2021mmlu,
+  title   = {Measuring Massive Multitask Language Understanding},
+  author  = {Hendrycks, Dan and Burns, Collin and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob},
+  journal = {International Conference on Learning Representations (ICLR)},
+  year    = {2021},
+  note    = {arXiv:2009.03300},
+  url     = {https://arxiv.org/abs/2009.03300}
+}
+
+% --- 2. Turkic NLP, Kyrgyz resources, and native benchmarks ---
+
+@inproceedings{tumlu2025,
+  title     = {{TUMLU}: A Unified and Native Language Understanding Benchmark for Turkic Languages},
+  author    = {Isbarov, Jafar and others}, % VERIFY full author list
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2025},
+  note      = {arXiv:2502.11020; ACL Anthology 2025.acl-long.1112},
+  url       = {https://aclanthology.org/2025.acl-long.1112/}
+}
+
+@inproceedings{nivre2020ud,
+  title     = {Universal Dependencies v2: An Evergrowing Multilingual Treebank Collection},
+  author    = {Nivre, Joakim and de Marneffe, Marie-Catherine and Ginter, Filip and Haji{\v{c}}, Jan and Manning, Christopher D. and Pyysalo, Sampo and Schuster, Sebastian and Tyers, Francis and Zeman, Daniel},
+  booktitle = {Proceedings of the 12th Language Resources and Evaluation Conference (LREC)},
+  pages     = {4034--4043}, % VERIFY
+  year      = {2020},
+  url       = {https://aclanthology.org/2020.lrec-1.497/}
+}
+
+@article{khanna2021apertium,
+  title   = {Recent advances in Apertium, a free/open-source rule-based machine translation platform for low-resource languages},
+  author  = {Khanna, Tanmai and Washington, Jonathan N. and Tyers, Francis M. and others}, % VERIFY full author list
+  journal = {Machine Translation},
+  volume  = {35},
+  year    = {2021},
+  doi     = {10.1007/s10590-021-09260-6},
+  url     = {https://link.springer.com/article/10.1007/s10590-021-09260-6}
+}
+
+@article{forcada2011apertium,
+  title   = {Apertium: a free/open-source platform for rule-based machine translation},
+  author  = {Forcada, Mikel L. and Ginest{\'i}-Rosell, Mireia and Nordfalk, Jacob and O'Regan, Jim and Ortiz-Rojas, Sergio and P{\'e}rez-Ortiz, Juan Antonio and S{\'a}nchez-Mart{\'i}nez, Felipe and Ram{\'i}rez-S{\'a}nchez, Gema and Tyers, Francis M.},
+  journal = {Machine Translation},
+  volume  = {25},
+  number  = {2},
+  pages   = {127--144}, % VERIFY
+  year    = {2011},
+  doi     = {10.1007/s10590-011-9090-0}
+}
+
+% --- 3. Morphological evaluation and inflection for agglutinative languages ---
+
+@inproceedings{vylomova2020sigmorphon,
+  title     = {{SIGMORPHON} 2020 Shared Task 0: Typologically Diverse Morphological Inflection},
+  author    = {Vylomova, Ekaterina and others}, % VERIFY full author list
+  booktitle = {Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology},
+  year      = {2020},
+  note      = {arXiv:2006.11572},
+  url       = {https://arxiv.org/abs/2006.11572}
+}
+
+@inproceedings{mccarthy2019sigmorphon,
+  title     = {The {SIGMORPHON} 2019 Shared Task: Morphological Analysis in Context and Cross-Lingual Transfer for Inflection},
+  author    = {McCarthy, Arya D. and others}, % VERIFY full author list
+  booktitle = {Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology},
+  year      = {2019},
+  note      = {arXiv:1910.11493},
+  url       = {https://arxiv.org/abs/1910.11493}
+}
+
+% --- 4. Synthetic / rule-based data augmentation for low-resource morphology ---
+
+@inproceedings{anastasopoulos2019inflection,
+  title     = {Pushing the Limits of Low-Resource Morphological Inflection},
+  author    = {Anastasopoulos, Antonios and Neubig, Graham},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP-IJCNLP)},
+  year      = {2019},
+  url       = {https://aclanthology.org/D19-1091/}
+}
+
+% --- 5. Machine-translation benchmarks and dictionary resources ---
+
+@article{nllb2022,
+  title   = {No Language Left Behind: Scaling Human-Centered Machine Translation},
+  author  = {{NLLB Team} and Costa-juss{\`a}, Marta R. and Cross, James and {\c{C}}elebi, Onur and others}, % VERIFY full author list
+  journal = {arXiv preprint arXiv:2207.04672},
+  year    = {2022},
+  url     = {https://arxiv.org/abs/2207.04672}
+}
+
+@inproceedings{ylonen2022wiktextract,
+  title     = {Wiktextract: Wiktionary as Machine-Readable Structured Data},
+  author    = {Yl{\"o}nen, Tatu},
+  booktitle = {Proceedings of the 13th Language Resources and Evaluation Conference (LREC)},
+  pages     = {1317--1325}, % VERIFY
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.lrec-1.140/}
+}
+
+% --- Models and methods used in this paper ---
+
+@article{openai2023gpt4,
+  title   = {{GPT-4} Technical Report},
+  author  = {OpenAI},
+  journal = {arXiv preprint arXiv:2303.08774},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2303.08774}
+}
+
+@article{qwen2025,
+  title   = {Qwen2.5 Technical Report},
+  author  = {{Qwen Team}},
+  journal = {arXiv preprint arXiv:2412.15115},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2412.15115}
+}
+
+@inproceedings{hu2022lora,
+  title     = {{LoRA}: Low-Rank Adaptation of Large Language Models},
+  author    = {Hu, Edward J. and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2022},
+  note      = {arXiv:2106.09685},
+  url       = {https://arxiv.org/abs/2106.09685}
+}
