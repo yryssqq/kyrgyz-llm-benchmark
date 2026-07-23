@@ -30,6 +30,19 @@ Two questions both models got wrong show it best. For `дос` + plural + posses
 
 So a single "90% on Kyrgyz" number hides the real gap: the model knows things about Kyrgyz but can't reliably inflect a noun. You only see it if you test morphology on its own.
 
+### At scale
+
+The morphology finding above rests on a handful of hand-written items. To put weight behind it, the same models were run on 300 corpus-grounded inflection items (see [Two benchmarks](#two-benchmarks)):
+
+| model | morphology accuracy | 95% CI |
+|---|---|---|
+| gpt-4o | 248/300 (82.7%) | 78–87% |
+| gpt-4o-mini | 197/300 (65.7%) | 60–71% |
+
+![morphology by feature](results/report/generated_by_feature.png)
+
+The weakness holds up over hundreds of items, and the per-case breakdown is itself informative. Both models are weakest on the cases whose suffix both harmonises and assimilates to the stem — the ablative and the accusative sit near 60% even for gpt-4o, while the possessives, whose suffix is more regular, reach the low 90s. The smaller model is worse almost everywhere but not uniformly: the gap between the two is widest exactly on the cases that need the most phonological computation (dative, genitive), which is where model scale appears to buy the most.
+
 ## Categories
 
 | category | tests |
