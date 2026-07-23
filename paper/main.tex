@@ -1,0 +1,263 @@
+\documentclass[11pt]{article}
+
+% For ACL-family venues, replace the preamble with the official style:
+%   \usepackage[review]{acl}
+% and download acl.sty + acl_natbib.bst from the ACL template repository.
+% For NeurIPS workshops, use the workshop's own style file instead.
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T2A]{fontenc}
+
+\title{What LLMs Know About Kyrgyz and What They Cannot Do:\\
+A Native-Authored Benchmark Separating Knowledge from Grammar}
+
+\author{
+  Yryskeldi Barpygulov \\
+  \texttt{yrys.barpygulov@gmail.com}
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Kyrgyz, a Turkic language with roughly five million speakers, is nearly absent from
+large language model evaluation. Where low-resource Turkic languages are measured at
+all, the evidence is usually a translation score on a machine-translated test set,
+which conflates the model with the translation system used to build the test.
+We introduce a native-speaker-authored benchmark of \textbf{TODO-N} four-option items
+covering eight linguistic phenomena, from vowel harmony and agglutinative suffix
+stacking to idioms, orthography, and culturally grounded knowledge. Scoring is
+deterministic and every result is tested against a 25\% random baseline.
+Evaluating \textbf{TODO-M} models, we find a consistent dissociation: models answer
+factual and lexical questions at or near ceiling while dropping sharply on items that
+require \emph{producing} correct Kyrgyz morphology, with the same score for a small
+and a large model from the same family. We then show that this gap is not intrinsic:
+fine-tuning on rule-generated inflection data raises held-out morphological accuracy
+from \textbf{TODO}\% to \textbf{TODO}\%. We release the benchmark, the rule engine,
+and all code.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+% Framing: the gap
+Multilingual evaluation of large language models is concentrated on a small set of
+high-resource languages. For the Turkic family, and for Kyrgyz in particular,
+published evidence of competence is thin and often indirect.
+
+% The methodological problem
+TODO: argue that machine-translated benchmarks measure the translation pipeline as
+much as the model, and that aggregate accuracy hides which competence is missing.
+
+% Contributions
+Our contributions are:
+\begin{itemize}
+  \item A native-authored Kyrgyz benchmark of TODO-N items across eight phenomena,
+        with balanced answer positions and per-item explanations.
+  \item An evaluation of TODO-M models showing a \emph{knowledge--grammar
+        dissociation}: near-ceiling factual accuracy alongside a sharp drop on
+        generative morphology.
+  \item A rule engine for Kyrgyz noun inflection, verified against the
+        hand-authored items, that generates unlimited training and test data.
+  \item A fine-tuning intervention demonstrating that the morphological gap can be
+        closed on held-out words.
+\end{itemize}
+
+\section{Related Work}
+\label{sec:related}
+
+TODO. Cover: (i) multilingual LLM benchmarks and their language coverage;
+(ii) Turkic-language NLP resources and benchmarks; (iii) morphological evaluation
+and probing for agglutinative languages; (iv) synthetic and rule-generated data for
+low-resource languages. Position this work as evaluating \emph{production} of
+morphology rather than translation quality.
+
+\section{Benchmark Construction}
+\label{sec:benchmark}
+
+\subsection{Categories}
+
+The benchmark covers eight categories, chosen so that failure in each isolates a
+different competence.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+Category & Tests \\
+\midrule
+Vowel harmony      & suffix vowel required by the stem \\
+Morphology         & case, possessive, number stacking \\
+Syntax             & well-formedness of a sentence \\
+Lexical semantics  & word meaning, synonymy \\
+Idioms             & non-literal fixed expressions \\
+Culture            & Kyrgyz-specific knowledge \\
+Translation        & meaning across ky/ru/en \\
+Orthography        & \foreignlanguage{russian}{ң, ө, ү} and similar \\
+\bottomrule
+\end{tabular}
+\caption{Benchmark categories.}
+\label{tab:categories}
+\end{table}
+
+\subsection{Authoring protocol}
+
+TODO: describe how items were written and verified, the instruction given to
+authors, and the rule that distractors must be errors a learner would plausibly make
+rather than obvious nonsense.
+
+\subsection{Annotator agreement}
+
+TODO: report inter-annotator agreement over the answer keys with at least two
+additional native speakers (Cohen's $\kappa$ for two, Fleiss' $\kappa$ for more).
+This is currently the largest methodological gap.
+
+\subsection{Design controls}
+
+Each item has exactly four distinct options and a validated answer key. Because a
+model that always selects one position would beat chance on a skewed set, the
+position of the correct answer is balanced to exactly 25\% per slot.
+
+\section{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Models.} TODO: list models, versions, and access dates.
+
+\paragraph{Prompting.} Items are presented in Kyrgyz with numbered options and the
+model is asked to reply with a single digit. Numeric labels avoid Latin/Cyrillic
+homoglyph ambiguity between \texttt{A} and \foreignlanguage{russian}{А}.
+
+\paragraph{Scoring.} A reply is parsed to an option index, first by a bare digit and
+then by exact match against option text. Replies yielding neither are recorded as
+\emph{unparseable}, counted as incorrect, and reported separately, since failure to
+follow the format is a different failure from answering wrongly.
+
+\paragraph{Statistics.} Accuracy is compared against the 25\% chance level with a
+one-sided binomial test, overall and per model $\times$ category.
+
+\section{Results}
+\label{sec:results}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrr}
+\toprule
+Model & Accuracy & $p$ vs.\ chance \\
+\midrule
+GPT-4o       & 59/64 (92.2\%) & $6\times10^{-30}$ \\
+GPT-4o-mini  & 55/64 (85.9\%) & $2\times10^{-24}$ \\
+TODO         & TODO & TODO \\
+\bottomrule
+\end{tabular}
+\caption{Overall accuracy. Chance is 25\%.}
+\label{tab:overall}
+\end{table}
+
+% Figure placeholder
+\begin{figure}[h]
+\centering
+% \includegraphics[width=\columnwidth]{../results/report/model_category_heatmap.png}
+\caption{Accuracy by model and category. TODO: uncomment once the figure path is set.}
+\label{fig:heatmap}
+\end{figure}
+
+TODO: narrate the per-category table, emphasising that morphology is the floor and
+that it does not improve with model scale within a family.
+
+\section{Analysis}
+\label{sec:analysis}
+
+\subsection{The knowledge--grammar dissociation}
+
+Categories that reward retrieval (idioms, lexical semantics, translation, culture)
+sit at or near ceiling. Categories that require generating correct inflected forms
+do not. TODO: quantify the gap and test whether it is significant.
+
+\subsection{Error analysis}
+
+The clearest case is a form both models produced identically and incorrectly:
+for \foreignlanguage{russian}{дос} with plural and first-person possessive, both
+answered \foreignlanguage{russian}{достарым} where the correct form is
+\foreignlanguage{russian}{досторум}. The rounded vowel of the stem requires rounded
+suffixes throughout the word. TODO: extend this into a typology of the errors
+observed, grouped by the rule violated.
+
+\section{Closing the Gap by Fine-Tuning}
+\label{sec:finetune}
+
+\subsection{Rule-generated data}
+
+We implement Kyrgyz noun inflection as an explicit rule engine covering four-way
+vowel harmony, consonant assimilation of suffix onsets, final-obstruent voicing, and
+the orthographic realisation of glide--vowel sequences. Notably, rounding harmony is
+asymmetric: a low suffix vowel is rounded after mid \foreignlanguage{russian}{о} but
+not after high \foreignlanguage{russian}{у}. The engine is unit-tested against the
+hand-authored items, so the generated data inherits the native-verified forms.
+
+\subsection{Setup and results}
+
+Stems are split so that test stems never appear in training; any gain therefore
+reflects generalisation of the rules rather than memorisation of forms.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+Condition & Held-out accuracy \\
+\midrule
+Base model      & TODO\% \\
++ LoRA on rule-generated data & TODO\% \\
+\bottomrule
+\end{tabular}
+\caption{Fine-tuning on generated inflections, evaluated on unseen stems.}
+\label{tab:finetune}
+\end{table}
+
+\section{Limitations}
+\label{sec:limitations}
+
+TODO, and be explicit:
+\begin{itemize}
+  \item Benchmark size and single-language scope.
+  \item Multiple choice measures recognition, which is easier than free production;
+        the fine-tuning evaluation uses generation partly for this reason.
+  \item Answer keys authored by a small number of speakers; dialectal and
+        prescriptive-versus-colloquial disagreement is possible.
+  \item The rule engine covers nominal morphology only.
+  \item Compute constraints limited the fine-tuning study to a small model.
+\end{itemize}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+TODO.
+
+\section*{Ethics and Data Statement}
+
+TODO: note that items were authored rather than scraped, that no personal data is
+involved, and that the resource is released openly for a language with few
+resources.
+
+\section*{Availability}
+
+Code, benchmark, and rule engine:
+\url{https://github.com/yryssqq/kyrgyz-llm-benchmark}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

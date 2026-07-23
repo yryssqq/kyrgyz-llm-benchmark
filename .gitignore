@@ -8,3 +8,5 @@ venv/
 .DS_Store
 data/morphology_train.jsonl
 data/morphology_items.json
+mlx_data/
+adapters/

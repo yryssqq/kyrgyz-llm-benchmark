@@ -56,6 +56,19 @@ This turns a small verified stem list into thousands of items, for expanding the
 
 `finetune_qlora.ipynb` uses the generator to teach an open model this morphology: it holds out a fifth of the stems, trains a QLoRA adapter on the rest, and scores the model on the held-out words before and after. Runs on a free Kaggle GPU.
 
+The same experiment runs locally on Apple Silicon with MLX, no cloud account needed:
+
+```bash
+python export_mlx_data.py
+python -m mlx_lm lora --model mlx-community/Qwen2.5-0.5B-Instruct-4bit \
+  --train --data mlx_data --iters 400 --batch-size 4 --num-layers 8 \
+  --mask-prompt --adapter-path adapters
+python eval_local.py                      # base
+python eval_local.py --adapter adapters   # fine-tuned
+```
+
+On 22 training stems, Qwen2.5-0.5B goes from 0% to 16.7% on held-out words. The base model does not inflect at all, it echoes the stem; after training it produces inflected forms but often picks the wrong harmony class. The stem list is the bottleneck, not the method.
+
 ## Files
 
 ```
