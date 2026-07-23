@@ -10,3 +10,4 @@ data/morphology_train.jsonl
 data/morphology_items.json
 mlx_data/
 adapters/
+adapters_big/
