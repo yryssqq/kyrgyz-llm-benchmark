@@ -18,6 +18,61 @@ ENTRY = re.compile(
 )
 CYRILLIC = re.compile(r"^[а-яёөүң]+$")
 RUSSIAN_ONLY = set("вфцщьъё")
+CONSONANTS = set("бгдjжзйклмнңпрстчшх")
+
+INTERNATIONAL_SUFFIXES = (
+    "изм", "ист", "ия", "ий", "лог", "метр", "скоп", "тор", "сор",
+    "ент", "ант", "аж", "ура", "ика",
+)
+
+INTERNATIONAL_WORDS = {
+    "абонент", "аборт", "агарот", "атлет", "барит", "батир", "битон", "гарнизон",
+    "гестапо", "грамм", "демагог", "догма", "доктур", "дума", "идеал", "интернат",
+    "кабинет", "казино", "канал", "катион", "корпус", "кран", "материал",
+    "миллиард", "монолог", "нектар", "неон", "отряд", "парк", "пилот", "пионер",
+    "планета", "помидор", "принтер", "рентген", "ресурс", "сайт", "сезон",
+    "семестр", "синдикат", "склероз", "спонсор", "танго", "театр", "телескоп",
+    "том", "тост", "турнир", "хор", "эталон", "этил", "юбилей", "юмор", "электр",
+    "эпос", "бактерия", "интернет", "радио", "футбол", "автобус", "поезд",
+    "абсолют", "база", "балкон", "герб", "гипс", "гормон", "дубляж", "душ",
+    "жилет", "жюри", "заказ", "зал", "инжинер", "кадр", "кекс", "колхоз",
+    "командо", "кит", "литр", "майор", "менеджер", "министр", "мэр", "радар",
+    "рапорт", "ринг", "сюрприз", "тендер", "тип", "тиски", "указ", "гезит",
+    "жокей", "хоккей", "оркестр", "музей", "коридор", "период", "сенат",
+    "сироп", "солдат", "союз", "тенор", "террор", "туалет", "хирург", "ядро",
+    "бампер", "бензин", "галош", "гарнитур", "депозит", "диплом", "импорт",
+    "йод", "каникул", "карантин", "кило", "легионер", "лимит", "лорд",
+    "макияж", "микроб", "минибус", "онлайн", "реестр", "ритм", "актер",
+    "акушер", "аккорд", "электрон", "эксперт", "пол", "обо",
+    "бюджет", "гол", "дилер", "имидж", "комсомол", "кадрлар", "паром",
+    "режим", "термин", "зона", "баланс", "лея", "мини", "род", "раса",
+    "бокс", "старт", "экран", "аренда", "билет", "бинт", "бланк",
+}
+
+
+BACK_VOWELS = set("аоуы")
+FRONT_VOWELS = set("еиэөү")
+
+
+def is_internally_harmonic(word: str) -> bool:
+    vowels = [c for c in word if c in m.VOWELS]
+    if not vowels:
+        return False
+    return all(v in BACK_VOWELS for v in vowels) or all(v in FRONT_VOWELS for v in vowels)
+
+
+def looks_borrowed(word: str) -> bool:
+    if word in INTERNATIONAL_WORDS:
+        return True
+    if word.endswith(INTERNATIONAL_SUFFIXES):
+        return True
+    if len(word) > 1 and word[0] in CONSONANTS and word[1] in CONSONANTS:
+        return True
+    if not is_internally_harmonic(word):
+        return True
+    if "э" in word[1:]:
+        return True
+    return False
 
 ENDINGS = ["vowel", "sonorant", "voiced", "voiceless"]
 HARMONIES = [("back", "unrounded"), ("back", "rounded"), ("front", "unrounded"), ("front", "rounded")]
@@ -58,7 +113,7 @@ def parse_lexc(path: Path, min_len: int, max_len: int, native_only: bool = True)
             continue
         if not CYRILLIC.match(lemma):
             continue
-        if native_only and RUSSIAN_ONLY & set(lemma):
+        if native_only and (RUSSIAN_ONLY & set(lemma) or looks_borrowed(lemma)):
             continue
         if not min_len <= len(lemma) <= max_len:
             continue

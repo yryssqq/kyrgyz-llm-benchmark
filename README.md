@@ -52,7 +52,7 @@ python generate_morphology.py --sample 30      # print forms to eyeball
 python generate_morphology.py                  # write training pairs + MCQ items
 ```
 
-Stems come from the Apertium Kyrgyz dictionary ([apertium-kir](https://github.com/apertium/apertium-kir), GPL). `extract_stems.py` pulls common nouns out of its `lexc` file, drops entries the maintainers flagged as uncertain, drops Russian loanwords by orthography, and samples a set balanced across all sixteen combinations of vowel-harmony class and final-segment type, so no cell of the paradigm is starved.
+Stems come from the Apertium Kyrgyz dictionary ([apertium-kir](https://github.com/apertium/apertium-kir), GPL). `extract_stems.py` pulls common nouns out of its `lexc` file and keeps only what is useful for teaching native morphology. It drops entries the maintainers flagged as uncertain, and filters borrowings four ways: letters that occur only in Russian loans (в, ф, ц, щ, ь, ъ, ё), initial consonant clusters, international suffixes, and, most usefully, stems whose vowels are not internally harmonic. That last test is principled rather than ad hoc: a native Kyrgyz root has all its vowels in one backness class, so `коридор` and `музей` fail it while `карышкыр` and `күмүш` pass. What survives is sampled evenly across all sixteen combinations of harmony class and final-segment type, so no cell of the paradigm is starved.
 
 ```bash
 git clone https://github.com/apertium/apertium-kir /tmp/apertium-kir
