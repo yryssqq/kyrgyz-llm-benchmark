@@ -141,8 +141,8 @@ The 0% to 77% figures above are a **generation** task: the model writes the infl
 |---|---|---|
 | gpt-4o (base) | 82.7% | not run |
 | gpt-4o-mini (base) | 65.7% | not run |
-| Qwen-3B + our LoRA | 47.0% | 73.8% |
-| Qwen-0.5B + our LoRA | 40.0% | 77.0% |
+| Qwen-3B + my LoRA | 47.0% | 73.8% |
+| Qwen-0.5B + my LoRA | 40.0% | 77.0% |
 | Qwen-3B (base) | 28.0% | 0.0% |
 | Qwen-0.5B (base) | 29.3% | 0.0% |
 
