@@ -11,3 +11,4 @@ data/morphology_items.json
 mlx_data/
 adapters/
 adapters_big/
+adapters_apertium/
